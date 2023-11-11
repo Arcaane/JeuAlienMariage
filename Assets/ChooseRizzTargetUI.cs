@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ChooseRizzTargetUI : MonoBehaviour
 {
-    public void SetAlien()
+    public void SetDate(int date)
     {
-        
+        GameManager.Instance.SetDate(date);
     }
 }

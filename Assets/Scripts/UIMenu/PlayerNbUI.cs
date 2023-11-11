@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class PlayerNbUI : MonoBehaviour
 {
+
+    [SerializeField] private GameObject[] texts;
+    
     void Update()
     {
         if (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown(KeyCode.Z))

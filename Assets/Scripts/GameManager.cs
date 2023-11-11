@@ -4,14 +4,22 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Managers")]
     public static GameManager Instance;
+    public UIManager uiManager;
+    
+    [Header("Players")]
     public List<Player> players;
     private Player activePlayer;
     private int currentIndex;
-    [SerializeField] private Sprite[] playerSprites;
-    public UIManager uiManager;
+    [SerializeField] private Color[] playerColors;
     
-
+    [Header("Dates")]
+    private Date currentDate;
+    [SerializeField] private Dates[] dates;
+    private Dictionary<DatesEnum.Dates, Date> datesDictionnary = new Dictionary<DatesEnum.Dates, Date>();
+    
+        
     private void Awake()
     {
         if (Instance == null)
@@ -26,6 +34,10 @@ public class GameManager : MonoBehaviour
     private void Initialize()
     {
         uiManager.SetPhaseIndex(0);
+        foreach (var date in dates)
+        {
+            datesDictionnary.Add(date.date, date.dateData);
+        }
     }
     public void SetNextPlayer()
     {
@@ -50,5 +62,39 @@ public class GameManager : MonoBehaviour
     {
         return activePlayer;
     }
+
+    public Date GetCurrentDate()
+    {
+        return currentDate;
+    }
+
+    public void SetDate(int date)
+    {
+        DatesEnum.Dates chosenDate;
+        switch (date)
+        {
+            case 1 :
+                chosenDate = DatesEnum.Dates.Alien1;
+                break;
+            case 2 :
+                chosenDate = DatesEnum.Dates.Alien2;
+                break;
+            default:
+                return;
+                break;
+        }
+        currentDate = datesDictionnary[chosenDate];
+    }
+
+    public Color GetActiveColor()
+    {
+        return playerColors[currentIndex];
+    }
     
+    [Serializable] 
+    public struct Dates
+    {
+        public DatesEnum.Dates date;
+        public Date dateData;
+    }
 }

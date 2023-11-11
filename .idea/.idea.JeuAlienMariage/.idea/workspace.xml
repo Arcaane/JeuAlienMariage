@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2247df84-bcb0-4f48-bf0d-bedc666f890b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChooseCharacterUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChooseCharacterUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ChooseRizzTargetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ChooseRizzTargetUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Date.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Date.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIMenu/PlayerNbUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIMenu/PlayerNbUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIMenu/StartUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIMenu/StartUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Sacha_Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Sacha_Scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +23,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/ChooseCharacterUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChooseRizzTargetUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DatesEnum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIMenu/PlayerNbUI.cs" root0="FORCE_HIGHLIGHTING" />
@@ -101,7 +104,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699701124799</updated>
       <workItem from="1699701128560" duration="2705000" />
-      <workItem from="1699704146630" duration="7156000" />
+      <workItem from="1699704146630" duration="10862000" />
     </task>
     <servers />
   </component>

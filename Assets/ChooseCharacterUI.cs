@@ -13,9 +13,11 @@ public class ChooseCharacterUI : MonoBehaviour
     public struct Buttons
     {
         public Button button;
+        public Image buttonBackground;
         public TextMeshProUGUI text;
         public Sprite sprite;
         public bool spriteSet;
+        public Animator anim;
     }
 
     private void OnEnable()
@@ -35,8 +37,10 @@ public class ChooseCharacterUI : MonoBehaviour
         var player = GameManager.Instance.GetActivePlayer();
         text.text = "Joueur " + player.GetIndex();
         player.SetSprite(button.sprite);
+        buttons[index].buttonBackground.color = GameManager.Instance.GetActiveColor();
         buttons[index].spriteSet = true;
         buttons[index].button.enabled = false;
+        buttons[index].anim.Play("Selected");
         NextPlayer();
     }
 
