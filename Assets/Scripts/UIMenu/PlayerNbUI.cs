@@ -1,37 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerNbUI : MonoBehaviour
 {
-    [SerializeField] private GameObject chooseCharacterUI;
-    
     void Update()
     {
         if (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown(KeyCode.Z))
         {
-            Choose(3);
+            ChooseCount(3);
         }
         else if (Input.GetKeyDown("joystick button 1") || Input.GetKeyDown(KeyCode.Q))
         {
-            Choose(2);
+            ChooseCount(2);
         }
         else if (Input.GetKeyDown("joystick button 2") || Input.GetKeyDown(KeyCode.S))
         {
-            Choose(4);
+            ChooseCount(4);
         }
         else if (Input.GetKeyDown("joystick button 3")|| Input.GetKeyDown(KeyCode.D))
         {
-            Choose(1);
+            ChooseCount(1);
         }
         
     }
-
-    void Choose(int nb)
+    void ChooseCount(int nb)
     {
-        chooseCharacterUI.SetActive(true);
-        gameObject.SetActive(false);
+        GameManager.Instance.uiManager.ActivateNextPhase();
         GameManager.Instance.SetupPlayers(nb);
-
     }
 }
