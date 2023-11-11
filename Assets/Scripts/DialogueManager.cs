@@ -1,6 +1,4 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
@@ -9,34 +7,32 @@ using UnityEngine.InputSystem;
 public class DialogueManager : MonoBehaviour
 {
     public Date date;
-    
+
     [SerializeField] private List<QuestionsSO> questionPoll;
     [SerializeField] private int answersCount = 0;
     [SerializeField] private QuestionsSO tempQuestion;
-    
-    [Header("PlayerParam")] 
-    public bool canAnswer;
+
+    [Header("PlayerParam")] public bool canAnswer;
     public QuestionsSO startDialogue;
-    
-    [Header("Text Apparition Param")]
-    public float questionsApparitionSpeed = 0.1f;
+
+    [Header("Text Apparition Param")] public float questionsApparitionSpeed = 0.1f;
     public float answerApparitionSpeed = 0.05f;
     [SerializeField] private TextMeshProUGUI questionText;
     public string tempText;
     public int indexLettre = 0;
     public float timer = 0;
 
-    [Header("UI Attributes")] 
-    public GameObject[] answerContainers;
+    [Header("UI Attributes")] public GameObject[] answerContainers;
     public TextMeshProUGUI[] answerText;
     public GameObject hideUI;
     public GameObject answerSelection;
 
     private int selectedAnswer;
-    
+
     // Start is called before the first frame update
     void Start()
     {
+        GameManager.Instance.uiManager.ActivateNextPhase();
         date = GameManager.Instance.GetCurrentDate();
         timer = 0;
         tempQuestion = startDialogue;
@@ -47,10 +43,10 @@ public class DialogueManager : MonoBehaviour
     private async void AskQuestion(QuestionsSO question = null)
     {
         answersCount = tempQuestion.reponsesPossibles.Length;
-        
+
         await AppearText(tempQuestion.questionSentence, questionsApparitionSpeed, questionText);
         Debug.Log("text affiché");
-        
+
         ShowAnswerSelectionUIElements();
         for (int i = 0; i < answersCount; i++)
         {
@@ -66,12 +62,12 @@ public class DialogueManager : MonoBehaviour
         indexLettre = 0;
         tempText = "";
         TextHandler.text = "";
-        
+
         while (indexLettre < text.Length)
         {
             await Task.Yield();
             timer += Time.deltaTime;
-            
+
             if (timer > textSpeed)
             {
                 timer = 0;
@@ -87,12 +83,12 @@ public class DialogueManager : MonoBehaviour
         answerSelection.SetActive(true);
         hideUI.SetActive(true);
     }
-    
+
     void CloseAnswersSection()
     {
         answerSelection.SetActive(false);
         hideUI.SetActive(false);
-        
+
         for (int i = 0; i < answerContainers.Length; i++)
         {
             answerContainers[i].SetActive(false);
@@ -130,21 +126,22 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
-        
+
         if (rate > 2) rate = 2;
         if (rate < -2) rate = -2;
-        
+
         Debug.Log(rate);
         return rate;
     }
-    
+
     #region Input
 
     private void DoAnswerX()
     {
         canAnswer = false;
         Debug.Log("Player Answer X");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[0].answersTraits, tempQuestion.reponsesPossibles[0].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[0].answersTraits,
+            tempQuestion.reponsesPossibles[0].answersConsequences);
         CloseAnswersSection();
     }
 
@@ -152,7 +149,8 @@ public class DialogueManager : MonoBehaviour
     {
         canAnswer = false;
         Debug.Log("Player Answer Y");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[1].answersTraits, tempQuestion.reponsesPossibles[1].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[1].answersTraits,
+            tempQuestion.reponsesPossibles[1].answersConsequences);
         CloseAnswersSection();
     }
 
@@ -160,18 +158,18 @@ public class DialogueManager : MonoBehaviour
     {
         canAnswer = false;
         Debug.Log("Player Answer B");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[2].answersTraits, tempQuestion.reponsesPossibles[2].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[2].answersTraits,
+            tempQuestion.reponsesPossibles[2].answersConsequences);
         CloseAnswersSection();
-        
     }
 
     private void DoAnwserA()
     {
         canAnswer = false;
         Debug.Log("Player Answer A");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[3].answersTraits, tempQuestion.reponsesPossibles[3].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[3].answersTraits,
+            tempQuestion.reponsesPossibles[3].answersConsequences);
         CloseAnswersSection();
-        
     }
 
     public void OnAButton(InputAction.CallbackContext ctx)
