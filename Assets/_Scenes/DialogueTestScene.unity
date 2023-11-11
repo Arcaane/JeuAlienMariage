@@ -526,7 +526,7 @@ GameObject:
   - component: {fileID: 511651040}
   - component: {fileID: 511651039}
   m_Layer: 5
-  m_Name: Answer2
+  m_Name: Answer Y
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -549,7 +549,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -270, y: 0}
+  m_AnchoredPosition: {x: 0, y: 200}
   m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511651039
@@ -870,7 +870,7 @@ GameObject:
   - component: {fileID: 911304654}
   - component: {fileID: 911304653}
   m_Layer: 5
-  m_Name: Answer3
+  m_Name: Answer B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -893,7 +893,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -190}
+  m_AnchoredPosition: {x: 270, y: 0}
   m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &911304653
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 913267027}
   - component: {fileID: 913267026}
   m_Layer: 5
-  m_Name: Answer4
+  m_Name: Answer A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -969,7 +969,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 270, y: 0}
+  m_AnchoredPosition: {x: 0, y: -200}
   m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &913267026
@@ -1278,10 +1278,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f3f5212250ae5740bc52839bac61c9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  date:
+    dateTraits: 03000000
   questionPoll: []
   answersCount: 0
   tempQuestion: {fileID: 0}
-  TraitsList: 010000000000000002000000
   canAnswer: 0
   startDialogue: {fileID: 11400000, guid: 4f1fe8f7934b5f043be2f13749e4d824, type: 2}
   questionsApparitionSpeed: 0.09
@@ -1855,7 +1856,7 @@ GameObject:
   - component: {fileID: 1687728325}
   - component: {fileID: 1687728324}
   m_Layer: 5
-  m_Name: Answer1
+  m_Name: Answer X
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1878,7 +1879,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 190}
+  m_AnchoredPosition: {x: -270, y: 0}
   m_SizeDelta: {x: 300, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1687728324

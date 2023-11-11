@@ -14,3 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence: Je n'aime point ce langage
   answersSprite: {fileID: 0}
+  answersTraits: 000000000100000002000000
+  answersConsequences: 010000000200000000000000

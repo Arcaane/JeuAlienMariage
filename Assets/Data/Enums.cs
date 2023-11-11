@@ -12,5 +12,6 @@ public enum Consequences
 {
     Positive = 0,
     Negative,
-    Equal
+    VeryPositive,
+    VeryNegative
 }

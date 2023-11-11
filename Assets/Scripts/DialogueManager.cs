@@ -1,4 +1,6 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
@@ -11,8 +13,6 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private List<QuestionsSO> questionPoll;
     [SerializeField] private int answersCount = 0;
     [SerializeField] private QuestionsSO tempQuestion;
-    
-    public List<Traits> TraitsList = new ();
     
     [Header("PlayerParam")] 
     public bool canAnswer;
@@ -31,6 +31,8 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI[] answerText;
     public GameObject hideUI;
     public GameObject answerSelection;
+
+    private int selectedAnswer;
     
     // Start is called before the first frame update
     void Start()
@@ -99,7 +101,34 @@ public class DialogueManager : MonoBehaviour
 
     void CalculateAnswerRate(List<Traits> dateTraits, List<Traits> answerTraits, List<Consequences> answerConsequence)
     {
-        
+        int rate = 0;
+        foreach (var dTrait in dateTraits)
+        {
+            for (int i = 0; i < answerTraits.Count; i++)
+            {
+                if (answerTraits[i] == dTrait)
+                {
+                    Debug.Log("Trait: " + answerTraits[i]); // Loyal
+                    Debug.Log("Rate Trait: " + answerConsequence[i]); // Loyal
+
+                    switch (answerConsequence[i])
+                    {
+                        case Consequences.Positive:
+                            rate += 1;
+                            break;
+                        case Consequences.Negative:
+                            rate -= 1;
+                            break;
+                        case Consequences.VeryNegative:
+                            rate -= 2;
+                            break;
+                        case Consequences.VeryPositive:
+                            rate += 2;
+                            break;
+                    }
+                }
+            }
+        }
     }
     
     #region Input
@@ -108,34 +137,39 @@ public class DialogueManager : MonoBehaviour
     {
         canAnswer = false;
         Debug.Log("Player Answer X");
-        
+        CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[0].answersTraits, tempQuestion.reponsesPossibles[0].answersConsequences);
         CloseAnswersSection();
     }
 
     private void DoAnwserY()
     {
         canAnswer = false;
-        CloseAnswersSection();
         Debug.Log("Player Answer Y");
+        CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[1].answersTraits, tempQuestion.reponsesPossibles[1].answersConsequences);
+        CloseAnswersSection();
     }
 
     private void DoAnwserB()
     {
         canAnswer = false;
-        CloseAnswersSection();
         Debug.Log("Player Answer B");
+        CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[2].answersTraits, tempQuestion.reponsesPossibles[2].answersConsequences);
+        CloseAnswersSection();
+        
     }
 
     private void DoAnwserA()
     {
         canAnswer = false;
-        CloseAnswersSection();
         Debug.Log("Player Answer A");
+        CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[3].answersTraits, tempQuestion.reponsesPossibles[3].answersConsequences);
+        CloseAnswersSection();
+        
     }
 
     public void OnAButton(InputAction.CallbackContext ctx)
     {
-        if (ctx.started && canAnswer)
+        if (ctx.started && canAnswer && answersCount == 4)
         {
             DoAnwserA();
         }
@@ -143,7 +177,7 @@ public class DialogueManager : MonoBehaviour
 
     public void OnBButton(InputAction.CallbackContext ctx)
     {
-        if (ctx.started && canAnswer)
+        if (ctx.started && canAnswer && answersCount >= 3)
         {
             DoAnwserB();
         }
@@ -151,7 +185,7 @@ public class DialogueManager : MonoBehaviour
 
     public void OnYButton(InputAction.CallbackContext ctx)
     {
-        if (ctx.started && canAnswer)
+        if (ctx.started && canAnswer && answersCount >= 2)
         {
             DoAnwserY();
         }
@@ -159,7 +193,7 @@ public class DialogueManager : MonoBehaviour
 
     public void OnXButton(InputAction.CallbackContext ctx)
     {
-        if (ctx.started && canAnswer)
+        if (ctx.started && canAnswer && answersCount >= 1)
         {
             DoAnswerX();
         }

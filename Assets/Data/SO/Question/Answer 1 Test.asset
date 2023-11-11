@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
   m_Name: Answer 1 Test
   m_EditorClassIdentifier: 
-  sentence: a
+  sentence: Cimer le S
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 00000000010000000200000000000000
+  answersTraits: 0300000002000000
+  answersConsequences: 0200000000000000
