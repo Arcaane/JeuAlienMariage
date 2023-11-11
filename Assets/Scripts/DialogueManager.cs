@@ -99,7 +99,7 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    void CalculateAnswerRate(List<Traits> dateTraits, List<Traits> answerTraits, List<Consequences> answerConsequence)
+    int CalculateAnswerRate(List<Traits> dateTraits, List<Traits> answerTraits, List<Consequences> answerConsequence)
     {
         int rate = 0;
         foreach (var dTrait in dateTraits)
@@ -129,6 +129,11 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
+        
+        if (rate > 2) rate = 2;
+        if (rate < -2) rate = -2;
+        
+        return rate;
     }
     
     #region Input
@@ -137,7 +142,7 @@ public class DialogueManager : MonoBehaviour
     {
         canAnswer = false;
         Debug.Log("Player Answer X");
-        CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[0].answersTraits, tempQuestion.reponsesPossibles[0].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[0].answersTraits, tempQuestion.reponsesPossibles[0].answersConsequences);
         CloseAnswersSection();
     }
 
@@ -145,7 +150,7 @@ public class DialogueManager : MonoBehaviour
     {
         canAnswer = false;
         Debug.Log("Player Answer Y");
-        CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[1].answersTraits, tempQuestion.reponsesPossibles[1].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[1].answersTraits, tempQuestion.reponsesPossibles[1].answersConsequences);
         CloseAnswersSection();
     }
 
@@ -153,7 +158,7 @@ public class DialogueManager : MonoBehaviour
     {
         canAnswer = false;
         Debug.Log("Player Answer B");
-        CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[2].answersTraits, tempQuestion.reponsesPossibles[2].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[2].answersTraits, tempQuestion.reponsesPossibles[2].answersConsequences);
         CloseAnswersSection();
         
     }
@@ -162,7 +167,7 @@ public class DialogueManager : MonoBehaviour
     {
         canAnswer = false;
         Debug.Log("Player Answer A");
-        CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[3].answersTraits, tempQuestion.reponsesPossibles[3].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[3].answersTraits, tempQuestion.reponsesPossibles[3].answersConsequences);
         CloseAnswersSection();
         
     }
