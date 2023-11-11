@@ -24,6 +24,7 @@ public class UIManager : MonoBehaviour
 
     public void ActivatePhase()
     {
+        Debug.Log(currentPhaseIndex);
         switch (currentPhaseIndex)
         {
             case 0:

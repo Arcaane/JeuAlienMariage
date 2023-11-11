@@ -1535,9 +1535,12 @@ MonoBehaviour:
   - date: 1
     dateData:
       dateTraits: 0100000003000000
+      questions:
+      - {fileID: 0}
   - date: 2
     dateData:
       dateTraits: 0000000002000000
+      questions: []
 --- !u!4 &576281870
 Transform:
   m_ObjectHideFlags: 0
@@ -1984,7 +1987,6 @@ MonoBehaviour:
   choosePlayerCountUI: {fileID: 705164983}
   chooseCharacterUI: {fileID: 1925899103}
   chooseTargetUI: {fileID: 1217765447}
-  inGameUIHandler: {fileID: 766732423}
   background: {fileID: 1498147493}
 --- !u!4 &795802420
 Transform:

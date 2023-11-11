@@ -63,7 +63,7 @@ public class ChooseCharacterUI : MonoBehaviour
             GameManager.Instance.uiManager.ActivateNextPhase();
         }
         GameManager.Instance.SetNextPlayer();
-        int playerIndex = GameManager.Instance.GetActivePlayer().GetIndex() + 1;
+        int playerIndex = GameManager.Instance.GetActivePlayer().GetIndex();
         titleText.text = "Joueur " + playerIndex + ", choisis un personnage";
     }
     
