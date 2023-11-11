@@ -1,10 +1,11 @@
 using UnityEngine;
 
-public class Player : MonoBehaviour
+[System.Serializable]
+public class Player
 {
     private int playerIndex;
     private Color color;
-    private Sprite sprite;
+    private Sprite playerSprite;
     private int playerScore;
 
     public int GetIndex()
@@ -15,6 +16,16 @@ public class Player : MonoBehaviour
     public void SetIndex(int index)
     {
         playerIndex = index;
+    }
+
+    public void SetSprite(Sprite sprite)
+    {
+        playerSprite = sprite;
+    }
+
+    public Sprite GetSprite()
+    {
+        return playerSprite;
     }
 
     public int GetScore()

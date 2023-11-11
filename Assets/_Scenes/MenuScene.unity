@@ -1838,13 +1838,58 @@ RectTransform:
   - {fileID: 1727137493}
   - {fileID: 103091734}
   - {fileID: 1935118643}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1174718273}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1174718271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1174718273}
+  - component: {fileID: 1174718272}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1174718272
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174718271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80abd74d8b086214b97ad6a72ea7f643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1174718273
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174718271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1112500586}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1418541748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2108,8 +2153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 174b419b9edb11e4582522f49aec43a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ChooseCharacterUI: {fileID: 103091733}
-  GameManager: {fileID: 1830055956}
+  chooseCharacterUI: {fileID: 103091733}
 --- !u!1 &1830055955
 GameObject:
   m_ObjectHideFlags: 0
@@ -2140,7 +2184,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   players: []
-  activePlayer: {fileID: 0}
+  playerSprites:
+  - {fileID: 21300000, guid: 004da10e8762030419da22fa913170ba, type: 3}
+  - {fileID: 21300000, guid: 004da10e8762030419da22fa913170ba, type: 3}
+  - {fileID: 21300000, guid: 004da10e8762030419da22fa913170ba, type: 3}
+  - {fileID: 21300000, guid: 004da10e8762030419da22fa913170ba, type: 3}
+  uiManager: {fileID: 0}
 --- !u!4 &1830055957
 Transform:
   m_ObjectHideFlags: 0
@@ -2425,6 +2474,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 963194228}
   - {fileID: 705507995}
-  - {fileID: 1112500586}
+  - {fileID: 1174718273}
   - {fileID: 206901720}
   - {fileID: 1830055957}

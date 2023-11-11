@@ -4,35 +4,34 @@ using UnityEngine;
 
 public class PlayerNbUI : MonoBehaviour
 {
-    [SerializeField] private GameObject ChooseCharacterUI;
-    [SerializeField] private GameManager GameManager;
+    [SerializeField] private GameObject chooseCharacterUI;
     
     void Update()
     {
-        if (Input.GetKeyDown("joystick button 0"))
+        if (Input.GetKeyDown("joystick button 0") || Input.GetKeyDown(KeyCode.Z))
         {
-            Chose(3);
+            Choose(3);
         }
-        else if (Input.GetKeyDown("joystick button 1"))
+        else if (Input.GetKeyDown("joystick button 1") || Input.GetKeyDown(KeyCode.Q))
         {
-            Chose(2);
+            Choose(2);
         }
-        else if (Input.GetKeyDown("joystick button 2"))
+        else if (Input.GetKeyDown("joystick button 2") || Input.GetKeyDown(KeyCode.S))
         {
-            Chose(4);
+            Choose(4);
         }
-        else if (Input.GetKeyDown("joystick button 3"))
+        else if (Input.GetKeyDown("joystick button 3")|| Input.GetKeyDown(KeyCode.D))
         {
-            Chose(1);
+            Choose(1);
         }
         
     }
 
-    void Chose(int nb)
+    void Choose(int nb)
     {
-        ChooseCharacterUI.SetActive(true);
+        chooseCharacterUI.SetActive(true);
         gameObject.SetActive(false);
-        GameManager.players = new Player[nb];
+        GameManager.Instance.SetupPlayers(nb);
 
     }
 }
