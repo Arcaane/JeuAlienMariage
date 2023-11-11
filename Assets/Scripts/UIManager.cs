@@ -57,7 +57,6 @@ public class UIManager : MonoBehaviour
         choosePlayerCountUI.SetActive(false);
         chooseCharacterUI.SetActive(false);
         chooseTargetUI.SetActive(false);
-        //inGameUIHandler.SetActive(false);
     }
 
     public void SetPhaseIndex(int index)
