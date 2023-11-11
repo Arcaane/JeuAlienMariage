@@ -35,7 +35,7 @@ public class ChooseCharacterUI : MonoBehaviour
         if(button.spriteSet) return;
         var text = button.text;
         var player = GameManager.Instance.GetActivePlayer();
-        text.text = "Joueur " + player.GetIndex();
+        text.text = "Joueur " + player.GetIndex() + 1;
         player.SetSprite(button.sprite);
         buttons[index].buttonBackground.color = GameManager.Instance.GetActiveColor();
         buttons[index].spriteSet = true;
