@@ -7,6 +7,7 @@ using Random = UnityEngine.Random;
 public class AnswersSO : ScriptableObject
 {
     public string sentence;
+    [TextArea(5, 10)] public string answerDescription;
     public Sprite answersSprite;
     
     public List<Traits> answersTraits = new();

@@ -46,12 +46,16 @@ public class ChooseCharacterUI : MonoBehaviour
 
     private bool CheckButtons()
     {
+        var playerValidateCount = 0;
+        
         foreach (var button in buttons)
         {
-            if (!button.spriteSet) return false;
+            if (button.spriteSet) playerValidateCount++;
         }
-        return true;
+        
+        return playerValidateCount == GameManager.Instance.players.Count;
     }
+    
     private void NextPlayer()
     {
         if (CheckButtons())
@@ -59,7 +63,7 @@ public class ChooseCharacterUI : MonoBehaviour
             GameManager.Instance.uiManager.ActivateNextPhase();
         }
         GameManager.Instance.SetNextPlayer();
-        int playerIndex = GameManager.Instance.GetActivePlayer().GetIndex() + 1;
+        int playerIndex = GameManager.Instance.GetActivePlayer().GetIndex();
         titleText.text = "Joueur " + playerIndex + ", choisis un personnage";
     }
     

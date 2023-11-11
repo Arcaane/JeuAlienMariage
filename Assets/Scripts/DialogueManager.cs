@@ -1,27 +1,25 @@
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 public class DialogueManager : MonoBehaviour
 {
     public Date date;
-    
-    [SerializeField] private List<QuestionsSO> questionPoll;
+
+    [SerializeField] private List<QuestionsSO> currentDateQuestions;
     [SerializeField] private int answersCount = 0;
     [SerializeField] private QuestionsSO tempQuestion;
-    
-    [Header("PlayerParam")] 
-    public bool canAnswer;
+
+    [Header("PlayerParam")] public bool canAnswer;
     public QuestionsSO startDialogue;
-    
-    [Header("Text Apparition Param")]
+
+    [Header("Text Apparition Param")] 
     public float questionsApparitionSpeed = 0.1f;
     public float answerApparitionSpeed = 0.05f;
-    [SerializeField] private TextMeshProUGUI questionText;
+    [SerializeField] public TextMeshProUGUI questionText;
     public string tempText;
     public int indexLettre = 0;
     public float timer = 0;
@@ -30,27 +28,37 @@ public class DialogueManager : MonoBehaviour
     public GameObject[] answerContainers;
     public TextMeshProUGUI[] answerText;
     public GameObject hideUI;
-    public GameObject answerSelection;
+    public GameObject AnswerSection;
+    public GameObject QuestionSection;
 
     private int selectedAnswer;
+    
     
     // Start is called before the first frame update
     void Start()
     {
+        //GameManager.Instance.uiManager.ActivateNextPhase();
         date = GameManager.Instance.GetCurrentDate();
+        currentDateQuestions = date.questions;
         timer = 0;
+    }
+
+    public void StartDate()
+    {
         tempQuestion = startDialogue;
         CloseAnswersSection();
         AskQuestion(tempQuestion);
     }
-
-    private async void AskQuestion(QuestionsSO question = null)
+    
+    public async Task AskQuestion(QuestionsSO question = null)
     {
-        answersCount = tempQuestion.reponsesPossibles.Length;
+        QuestionSection.SetActive(true);
         
+        answersCount = tempQuestion.reponsesPossibles.Length;
+
         await AppearText(tempQuestion.questionSentence, questionsApparitionSpeed, questionText);
         Debug.Log("text affiché");
-        
+
         ShowAnswerSelectionUIElements();
         for (int i = 0; i < answersCount; i++)
         {
@@ -61,17 +69,17 @@ public class DialogueManager : MonoBehaviour
         canAnswer = true;
     }
 
-    private async Task AppearText(string text, float textSpeed, TextMeshProUGUI TextHandler)
+    public async Task AppearText(string text, float textSpeed, TextMeshProUGUI TextHandler)
     {
         indexLettre = 0;
         tempText = "";
         TextHandler.text = "";
-        
+
         while (indexLettre < text.Length)
         {
             await Task.Yield();
             timer += Time.deltaTime;
-            
+
             if (timer > textSpeed)
             {
                 timer = 0;
@@ -84,15 +92,15 @@ public class DialogueManager : MonoBehaviour
 
     void ShowAnswerSelectionUIElements()
     {
-        answerSelection.SetActive(true);
+        AnswerSection.SetActive(true);
         hideUI.SetActive(true);
     }
-    
+
     void CloseAnswersSection()
     {
-        answerSelection.SetActive(false);
+        AnswerSection.gameObject.SetActive(false);
         hideUI.SetActive(false);
-        
+
         for (int i = 0; i < answerContainers.Length; i++)
         {
             answerContainers[i].SetActive(false);
@@ -109,9 +117,6 @@ public class DialogueManager : MonoBehaviour
             {
                 if (answerTraits[i] == dTrait)
                 {
-                    Debug.Log("Trait: " + answerTraits[i]); // Loyal
-                    Debug.Log("Rate Trait: " + answerConsequence[i]); // Loyal
-
                     switch (answerConsequence[i])
                     {
                         case Consequences.Positive:
@@ -130,55 +135,79 @@ public class DialogueManager : MonoBehaviour
                 }
             }
         }
-        
+
         if (rate > 2) rate = 2;
         if (rate < -2) rate = -2;
-        
+
         Debug.Log(rate);
         return rate;
     }
-    
+
+    public void GetRandomQuestion()
+    {
+        if (currentDateQuestions.Count <= 0) currentDateQuestions = date.questions;
+        var rand = Random.Range(0, currentDateQuestions.Count);
+        tempQuestion = currentDateQuestions[rand];
+        currentDateQuestions.RemoveAt(rand);
+        AskQuestion(tempQuestion);
+    }
+
     #region Input
 
-    private void DoAnswerX()
+    private async void DoAnswerX()
     {
         canAnswer = false;
         Debug.Log("Player Answer X");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[0].answersTraits, tempQuestion.reponsesPossibles[0].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[0].answersTraits,
+            tempQuestion.reponsesPossibles[0].answersConsequences);
         CloseAnswersSection();
+        await AppearText(tempQuestion.reponsesPossibles[0].answerDescription, answerApparitionSpeed, questionText);
+        await Task.Delay(450);
+        GetRandomQuestion();
     }
 
-    private void DoAnwserY()
+    private async void DoAnswerY()
     {
         canAnswer = false;
         Debug.Log("Player Answer Y");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[1].answersTraits, tempQuestion.reponsesPossibles[1].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[1].answersTraits,
+            tempQuestion.reponsesPossibles[1].answersConsequences);
         CloseAnswersSection();
+        await AppearText(tempQuestion.reponsesPossibles[1].answerDescription, answerApparitionSpeed, questionText);
+        await Task.Delay(450);
+        GetRandomQuestion();
     }
 
-    private void DoAnwserB()
+    private async void DoAnswerB()
     {
         canAnswer = false;
         Debug.Log("Player Answer B");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[2].answersTraits, tempQuestion.reponsesPossibles[2].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[2].answersTraits,
+            tempQuestion.reponsesPossibles[2].answersConsequences);
         CloseAnswersSection();
-        
+        await AppearText(tempQuestion.reponsesPossibles[2].answerDescription, answerApparitionSpeed, questionText);
+        await Task.Delay(450);
+        GetRandomQuestion();
     }
 
-    private void DoAnwserA()
+    private async void DoAnswerA()
+    
     {
         canAnswer = false;
         Debug.Log("Player Answer A");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[3].answersTraits, tempQuestion.reponsesPossibles[3].answersConsequences);
+        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[3].answersTraits,
+            tempQuestion.reponsesPossibles[3].answersConsequences);
         CloseAnswersSection();
-        
+        await AppearText(tempQuestion.reponsesPossibles[3].answerDescription, answerApparitionSpeed, questionText);
+        await Task.Delay(450);
+        GetRandomQuestion();
     }
 
     public void OnAButton(InputAction.CallbackContext ctx)
     {
         if (ctx.started && canAnswer && answersCount == 4)
         {
-            DoAnwserA();
+            DoAnswerA();
         }
     }
 
@@ -186,7 +215,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (ctx.started && canAnswer && answersCount >= 3)
         {
-            DoAnwserB();
+            DoAnswerB();
         }
     }
 
@@ -194,7 +223,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (ctx.started && canAnswer && answersCount >= 2)
         {
-            DoAnwserY();
+            DoAnswerY();
         }
     }
 

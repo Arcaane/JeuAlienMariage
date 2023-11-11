@@ -5,4 +5,5 @@ using System.Collections.Generic;
 public class Date
 {
     public List<Traits> dateTraits;
+    public List<QuestionsSO> questions;
 }
