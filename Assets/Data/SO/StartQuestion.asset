@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
+  m_Name: StartQuestion
+  m_EditorClassIdentifier: 
+  questionSentence: "\xE7a va le boss bien biz ? Ti\xE9 beau comme un coeur l'humain
+    !"
+  reponsesPossibles:
+  - {fileID: 11400000, guid: a3b515378820b4141b34dd8f8a66d487, type: 2}
+  - {fileID: 11400000, guid: 5c1aa60bc7f64834a8fa9a463f5150c4, type: 2}
+  - {fileID: 11400000, guid: 44fc8e0942a29d242855088a8dd9d4e3, type: 2}
+  - {fileID: 11400000, guid: 1eff45203327ce748b968d21d5f9469b, type: 2}
