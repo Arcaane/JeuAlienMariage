@@ -17,7 +17,7 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Text Apparition Param")] public float questionsApparitionSpeed = 0.1f;
     public float answerApparitionSpeed = 0.05f;
-    [SerializeField] private TextMeshProUGUI questionText;
+    [SerializeField] public TextMeshProUGUI questionText;
     public string tempText;
     public int indexLettre = 0;
     public float timer = 0;
@@ -35,12 +35,16 @@ public class DialogueManager : MonoBehaviour
         GameManager.Instance.uiManager.ActivateNextPhase();
         date = GameManager.Instance.GetCurrentDate();
         timer = 0;
+    }
+
+    public void StartDate()
+    {
         tempQuestion = startDialogue;
         CloseAnswersSection();
         AskQuestion(tempQuestion);
     }
-
-    private async void AskQuestion(QuestionsSO question = null)
+    
+    public async Task AskQuestion(QuestionsSO question = null)
     {
         answersCount = tempQuestion.reponsesPossibles.Length;
 
@@ -57,7 +61,7 @@ public class DialogueManager : MonoBehaviour
         canAnswer = true;
     }
 
-    private async Task AppearText(string text, float textSpeed, TextMeshProUGUI TextHandler)
+    public async Task AppearText(string text, float textSpeed, TextMeshProUGUI TextHandler)
     {
         indexLettre = 0;
         tempText = "";
