@@ -133,6 +133,7 @@ public class DialogueManager : MonoBehaviour
         if (rate > 2) rate = 2;
         if (rate < -2) rate = -2;
         
+        Debug.Log(rate);
         return rate;
     }
     
