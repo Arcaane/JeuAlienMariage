@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
   m_Name: StartQuestion
   m_EditorClassIdentifier: 
-  questionSentence: "\xE7a va le boss bien biz ? Ti\xE9 beau comme un coeur l'humain
+  questionSentence: "Tranquille le boss bien biz ? Ti\xE9 beau comme un coeur l'humain
     !"
   reponsesPossibles:
   - {fileID: 11400000, guid: a3b515378820b4141b34dd8f8a66d487, type: 2}
