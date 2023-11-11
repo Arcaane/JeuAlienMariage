@@ -2140,6 +2140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   players: []
+  activePlayer: {fileID: 0}
 --- !u!4 &1830055957
 Transform:
   m_ObjectHideFlags: 0
