@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Scenes/Sacha_Scene.unity
+    guid: 05ad06f7b67f3c4459e5aaaf4fe65462
+  - enabled: 1
+    path: Assets/_Scenes/DialogueTestScene.unity
+    guid: a3fcc527e50b70445a21cdb1a3618a62
   m_configObjects: {}

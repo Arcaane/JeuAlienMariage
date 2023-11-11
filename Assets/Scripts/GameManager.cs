@@ -19,16 +19,19 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Dates[] dates;
     private Dictionary<DatesEnum.Dates, Date> datesDictionnary = new Dictionary<DatesEnum.Dates, Date>();
     
-        
     private void Awake()
     {
-        if (Instance == null)
-            Instance = this;
+        if (Instance == null) Instance = this;
+        else
+        {
+            Destroy(this);
+        }
     }
 
     private void Start()
     {
         Initialize();
+        DontDestroyOnLoad(this);
     }
 
     private void Initialize()
@@ -83,6 +86,7 @@ public class GameManager : MonoBehaviour
                 return;
                 break;
         }
+        
         currentDate = datesDictionnary[chosenDate];
     }
 

@@ -37,6 +37,7 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        date = GameManager.Instance.GetCurrentDate();
         timer = 0;
         tempQuestion = startDialogue;
         CloseAnswersSection();
