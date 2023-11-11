@@ -43,10 +43,10 @@ public class GameUIManager : MonoBehaviour
     {
         Debug.Log("AnimDisplayPlayerTurn");
         dialogueManager.hideUI.SetActive(true);
-        playerAnouncementText.text = $"Player {GameManager.Instance.GetActivePlayer()} turn";
+        playerAnouncementText.text = $"Player {GameManager.Instance.GetActivePlayer().GetIndex() + 1} turn";
         playerAnouncementTransform.DOAnchorPosX(0, 0.345f);
         await Task.Delay(1000);
-        playerAnouncementTransform.DOAnchorPosX(-1920, 0.350f);
+        playerAnouncementTransform.DOAnchorPosX( 1920, 0.350f);
         dialogueManager.hideUI.SetActive(false);
     }
 }

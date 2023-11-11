@@ -8,7 +8,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject choosePlayerCountUI;
     [SerializeField] private GameObject chooseCharacterUI;
     [SerializeField] private GameObject chooseTargetUI;
-    [SerializeField] private GameObject inGameUIHandler;
+    //[SerializeField] private GameObject inGameUIHandler;
     [SerializeField] private GameObject background;
 
     private void Start()
@@ -44,7 +44,7 @@ public class UIManager : MonoBehaviour
                 break;
             case 4:
                 DeactivateUI();
-                inGameUIHandler.SetActive(true);
+                //inGameUIHandler.SetActive(true);
                 break;
             default:
                 break;
@@ -57,7 +57,7 @@ public class UIManager : MonoBehaviour
         choosePlayerCountUI.SetActive(false);
         chooseCharacterUI.SetActive(false);
         chooseTargetUI.SetActive(false);
-        inGameUIHandler.SetActive(false);
+        //inGameUIHandler.SetActive(false);
     }
 
     public void SetPhaseIndex(int index)
