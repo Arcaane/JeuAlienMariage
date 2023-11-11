@@ -22,15 +22,24 @@ public class Player : MonoBehaviour
         return playerScore;
     }
 
-    public void SetScore(int score)
+    public void AddScore(int score)
     {
         playerScore += score;
+    }
+
+    public void RemoveScore(int score)
+    {
+        playerScore -= score;
     }
 
     public void ResetScore()
     {
         playerScore = 0;
     }
-    
+
+    public bool CheckPoints()
+    {
+        return playerScore >= 100;
+    }
     
 }

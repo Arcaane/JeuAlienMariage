@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2247df84-bcb0-4f48-bf0d-bedc666f890b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIMenu/PlayerNbUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIMenu/PlayerNbUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699701124799</updated>
       <workItem from="1699701128560" duration="2705000" />
-      <workItem from="1699704146630" duration="887000" />
+      <workItem from="1699704146630" duration="1384000" />
     </task>
     <servers />
   </component>
