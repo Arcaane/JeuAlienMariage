@@ -7,6 +7,7 @@ public class StartUI : MonoBehaviour
         if (Input.anyKeyDown)
         {
             GameManager.Instance.uiManager.ActivateNextPhase();
+            AudioManager.instance.PlaySoundOnce(0);
         }
     }
 }
