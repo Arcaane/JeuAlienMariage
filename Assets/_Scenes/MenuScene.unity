@@ -164,10 +164,17 @@ MonoBehaviour:
     dateData:
       questions: []
       spritesAliens: []
+      background: {fileID: 21300000, guid: c16e4fb68200d034bb084d85853873d6, type: 3}
   - date: 2
     dateData:
       questions: []
       spritesAliens: []
+      background: {fileID: 21300000, guid: bb0f88dd5be8cf84d93adf8157ac05cc, type: 3}
+  - date: 3
+    dateData:
+      questions: []
+      spritesAliens: []
+      background: {fileID: 21300000, guid: e9652cfd905bcc14abf6ba9b62f1b4b2, type: 3}
 --- !u!4 &576281870
 Transform:
   m_ObjectHideFlags: 0
@@ -511,6 +518,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9210666830649743669, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: background
+      value: 
+      objectReference: {fileID: 5182050791276333624}
+    - target: {fileID: 9210666830649743669, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
       propertyPath: eventSystem
       value: 
       objectReference: {fileID: 592967215}
@@ -519,6 +530,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+--- !u!114 &5182050791276333624 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6836574844503993010, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+  m_PrefabInstance: {fileID: 5182050791276333623}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
