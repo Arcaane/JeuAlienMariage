@@ -11,7 +11,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject chooseTargetUI;
     //[SerializeField] private GameObject inGameUIHandler;
     
-    [SerializeField] private EventSystem eventSystem;
+    public EventSystem eventSystem;
     [SerializeField] private GameObject[] firstSelectedByPannels;
     
     [Header("Background")]

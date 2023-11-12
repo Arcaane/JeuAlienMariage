@@ -99,6 +99,7 @@ public class GameUIManager : MonoBehaviour
             heart.transform.position = Vector3.zero;
         }
         playerScreen.SetupImage(playerScreens[GameManager.Instance.GetActivePlayer().GetIndex()]);
+        playerScreen.SetupCharacterImage(GameManager.Instance.GetActivePlayer().GetSprite());
     }
     
 }
