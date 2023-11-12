@@ -162,12 +162,12 @@ MonoBehaviour:
   dates:
   - date: 1
     dateData:
-      dateTraits: 0100000003000000
       questions: []
+      spritesAliens: []
   - date: 2
     dateData:
-      dateTraits: 0000000002000000
       questions: []
+      spritesAliens: []
 --- !u!4 &576281870
 Transform:
   m_ObjectHideFlags: 0
@@ -469,6 +469,14 @@ PrefabInstance:
     - target: {fileID: 1146618180293420854, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
       propertyPath: m_Name
       value: UIManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4033480195215672489, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6001936281307734856, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_Interactable
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7216474250840973529, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
       propertyPath: m_LocalPosition.x
