@@ -33,10 +33,12 @@ public class DialogueManager : MonoBehaviour
     public GameObject AnswerSection;
     public GameObject QuestionSection;
     public GameObject continueButton;
+    [SerializeField] private GameObject pauseMenu;
 
     private int selectedAnswer;
     public bool canSkipDescription;
     public bool canSkipReaction;
+    public bool playerLost;
     public Image dateImage;
     
     // Start is called before the first frame update
@@ -82,6 +84,7 @@ public class DialogueManager : MonoBehaviour
 
     public async Task AppearText(string text, float textSpeed, TextMeshProUGUI TextHandler)
     {
+        Debug.Log("J'affiche un texte");
         continueButton.SetActive(false);
         indexLettre = 0;
         tempText = "";
@@ -147,10 +150,17 @@ public class DialogueManager : MonoBehaviour
         if (a < 0)
         {
             GameUIManager.Instance.PlayerLost();
+            playerLost = true;
             dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[2];
         }
         canSkipReaction = true;
         continueButton.SetActive(true);
+    }
+
+    public void RestartDialogues()
+    {
+        CloseAnswersSection();
+        GetRandomQuestion();
     }
 
     #region Input
@@ -168,6 +178,7 @@ public class DialogueManager : MonoBehaviour
 
     public void OnAButton(InputAction.CallbackContext ctx)
     {
+        if(playerLost) return;
         if (canSkipDescription && ctx.started)
         {
             canSkipDescription = false;
@@ -207,6 +218,15 @@ public class DialogueManager : MonoBehaviour
         if (ctx.started && canAnswer && answersCount >= 1)
         {
             DoAnswer(0);
+        }
+    }
+
+    public void OnStartButton(InputAction.CallbackContext ctx)
+    {
+        if (ctx.started)
+        {
+            Time.timeScale = 0;
+            pauseMenu.SetActive(true);
         }
     }
 
