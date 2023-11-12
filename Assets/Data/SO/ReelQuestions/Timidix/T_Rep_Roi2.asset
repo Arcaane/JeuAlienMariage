@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: T_Rep_Roi2
+  m_EditorClassIdentifier: 
+  sentence: Ne pas prendre position
+  answerDescription: "Vous n'avez pas la moindre id\xE9e de quoi ils parlent, alors
+    vous d\xE9cidez de faire ce que ferait toute personne sans avis politique, dire
+    que \xE7a pourrait \xEAtre pire. Cela d\xE9clenche un regard d'indignation de
+    la part des deux animaux qui ne semblent pas \xEAtre du genre \xE0 d\xE9fiscaliser
+    leur patrimoine sur la plan\xE8te d'a c\xF4t\xE9. "
+  answersConsequences: 0
+  alienReaction: "C'est vrai que \xE7a pourrait \xEAtre pire, des pauvres pourraient
+    essayer de faire comme nous les riches. Voil\xE0 une tr\xE8s sage r\xE9flexion
+    !"

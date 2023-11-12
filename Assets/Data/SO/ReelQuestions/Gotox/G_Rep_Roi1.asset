@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: G_Rep_Roi1
+  m_EditorClassIdentifier: 
+  sentence: Le pouvoir au peuple !
+  answerDescription: "Vous commencez une longue tirade sur la lutte des classes.
+    Vous commencez \xE0 \xEAtre confus car la totalit\xE9 de vos connaissances sur
+    le sujet proviennent de Tweets post\xE9s par votre cousin qui n'est plus invit\xE9
+    au diner de famille depuis l'accident du \"Pastis-Maximator\". Vous finissez
+    en expliquant qu'un gros chat serait bien plus \xE0 sa place sur le tr\xF4ne
+    et convaincus, les deux comp\xE8res partent d\xE9troner Macronux et ses sbires."
+  answersConsequences: 1
+  alienReaction: "Voil\xE0 des id\xE9es des plus saugrenus, il est \xE9vident que
+    le roi est \xE0 sa place car il est le meilleurs en affaires d'entre nous. L'argent
+    se gagne voyons, faites un effort !"

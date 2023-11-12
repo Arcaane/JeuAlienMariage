@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: G_Rep_Roi4
+  m_EditorClassIdentifier: 
+  sentence: "Revendiquer le tr\xF4ne par la force"
+  answerDescription: "Vous expliquer aux deux \xE9tranges animaux que vous avez donn\xE9
+    rendez-vous au roi Macronux place de la Gare \xE0 17h15, et que c'est une tarte
+    \xE0 cinq doigts qui va mettre fin \xE0 2 mill\xE9naires de faibles sur le tr\xF4ne."
+  answersConsequences: 1
+  alienReaction: "La violence est le language des barbares, ou pire, des pauvres
+    ! Je trouve \xE7a terriblement choquant que vous souhaitiez levez la main sur
+    le roi plut\xF4t que de le vaincre dans le Marketplace des id\xE9es !"

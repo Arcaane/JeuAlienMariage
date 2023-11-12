@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: T_Rep_SweetEscape4
+  m_EditorClassIdentifier: 
+  sentence: L'emmener sur Terre
+  answerDescription: "Vous connaissez la plan\xE8te pour le date parfait : la Terre
+    ! Vous engagez vos propulseurs et mettez le cap sur la Plan\xE8te Bleue."
+  answersConsequences: 1
+  alienReaction: "L'alien para\xEEt enthousiaste \xE0 l'id\xE9e de visiter votre
+    plan\xE8te natale. Mais une fois arriv\xE9 dans les rues de la m\xE9tropole de
+    New-Valzoo, cette excitation se transforme en honn\xEAte d\xE9ception."

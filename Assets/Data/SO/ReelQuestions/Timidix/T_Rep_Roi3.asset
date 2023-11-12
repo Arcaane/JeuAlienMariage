@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: T_Rep_Roi3
+  m_EditorClassIdentifier: 
+  sentence: Honorer les traditions
+  answerDescription: "Pris d'un \xE9lan patriotique, vous vous mettez \xE0 chanter
+    l'hymne de la plan\xE8te \xE9crite par le c\xE9l\xE8bre chanteur Damsus. Votre
+    repr\xE9sentation laisse s'exprimer votre profond amour pour le royaume et ses
+    institutions. Faux-cul va. "
+  answersConsequences: 0
+  alienReaction: "C'\xE9tait une magnifique repr\xE9sentation ! Je me rapelle avoir
+    chanter l'hymne mainte fois avec mes parents lors des r\xE9unions d'entreprises,
+    merci pour ces bons souvenirs !"

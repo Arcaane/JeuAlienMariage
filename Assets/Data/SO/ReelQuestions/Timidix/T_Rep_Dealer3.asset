@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: T_Rep_Dealer3
+  m_EditorClassIdentifier: 
+  sentence: Menacer d'appeler la police
+  answerDescription: "Scandalis\xE9, vous sortez votre X\xE9no-Tablette et tapez
+    le num\xE9ro de la police locale, mena\xE7ant de les appeler \xE0 tout instant."
+  answersConsequences: 0
+  alienReaction: "L'alien vous arr\xEAte imm\xE9diatement, touch\xE9 par votre geste
+    citoyen, en vous assurant qu'il n'avait aucune intention de braver la loi. C'\xE9tait
+    un test, et vous l'avez pass\xE9 haut la main !"

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
-  m_Name: G_Rep_Animal1
+  m_Name: T_Rep_Animal1
   m_EditorClassIdentifier: 
   sentence: Aller le caresser
   answerDescription: "La cr\xE9ature est d\xE9finitivement trop mignonne pour laisser
