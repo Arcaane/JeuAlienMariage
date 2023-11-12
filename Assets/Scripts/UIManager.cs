@@ -76,9 +76,9 @@ public class UIManager : MonoBehaviour
         ActivatePhase();
     }
 
-    public void SetBackground(int index)
+    public void SetBackground(Sprite sprite)
     {
-        background.sprite = menuBackground[index];
+        background.sprite = sprite;
     }
 
     public void ActivateNextPhase()

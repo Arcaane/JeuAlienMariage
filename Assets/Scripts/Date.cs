@@ -7,4 +7,5 @@ public class Date
 {
     public List<QuestionsSO> questions;
     public List<Sprite> spritesAliens;
+    public Sprite background;
 }
