@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: T_Rep_Vespa3
+  m_EditorClassIdentifier: 
+  sentence: "Laisser votre date g\xE9rer"
+  answerDescription: "Vous regardez votre date avec beaucoup d'attentes. Personne
+    ne bouge. Personne ne sa\xEEt r\xE9parer la Vespa. D\xE9l\xE8ter l'ambiance."
+  answersConsequences: 1
+  alienReaction: "\"Ne me regarde pas comme \xE7a! Je peux pas appeler les d\xE9panneurs,
+    je fais de l'anxi\xE9t\xE9!\""

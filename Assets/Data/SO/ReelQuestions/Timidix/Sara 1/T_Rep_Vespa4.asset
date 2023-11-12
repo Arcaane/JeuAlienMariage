@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: T_Rep_Vespa4
+  m_EditorClassIdentifier: 
+  sentence: "Tenter de r\xE9parer la Vespa"
+  answerDescription: "Vous vous remontez les manches et mettez les mains dans le
+    moteur. En vrai vous savez rien sur les moteurs, mais bon si vous pouvez l\xE2cher
+    des \"ah c'est le joint de culasse qui fait des siennes\" c'est d\xE9j\xE0 \xE7a."
+  answersConsequences: 1
+  alienReaction: "Malgr\xE9 votre tecnique de drague incroyable venant tout droit
+    de Tonton Sergios, Gloub ne semble pas impression\xE9e: elle pr\xE9fererait attendre
+    tranquillement avec vous plut\xF4t que se faire d\xE9laisser pour une Vespa!"

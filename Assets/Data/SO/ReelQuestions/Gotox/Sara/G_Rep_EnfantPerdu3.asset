@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: G_Rep_EnfantPerdu3
+  m_EditorClassIdentifier: 
+  sentence: Ignorer l'enfant
+  answerDescription: Vous faites sembalnt de ne pas voir et ne pas entendre l'enfant
+    et vous partez, en amenant votre date avec vous.
+  answersConsequences: 0
+  alienReaction: "Vous passez une super apr\xE8s-midi suite \xE0 cet incident. La
+    vie est belle quand il faut pas s'occuper d'une enfant en larmes."
