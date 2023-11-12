@@ -38,7 +38,7 @@ public class GameUIManager : MonoBehaviour
         dateTr.position = new Vector3(0, -1080, 0);
         textBox.gameObject.SetActive(false);
         answerSection.SetActive(false);
-        dateTr.DOAnchorPos(new Vector3(0, -20, 0), 0.85f);
+        dateTr.DOAnchorPos(new Vector3(-375, -20, 0), 0.85f);
         Task.Delay(250);
         textBox.gameObject.SetActive(true);
         LaunchText();
