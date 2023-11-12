@@ -31,12 +31,11 @@ public class DialogueManager : MonoBehaviour
     public GameObject QuestionSection;
 
     private int selectedAnswer;
-    
+    public bool canSkip;
     
     // Start is called before the first frame update
     void Start()
     {
-        //GameManager.Instance.uiManager.ActivateNextPhase();
         date = GameManager.Instance.GetCurrentDate();
         SetupQuestions();
         timer = 0;
@@ -59,11 +58,8 @@ public class DialogueManager : MonoBehaviour
     public async Task AskQuestion(QuestionsSO question = null)
     {
         QuestionSection.SetActive(true);
-        
         answersCount = tempQuestion.reponsesPossibles.Length;
-
         await AppearText(tempQuestion.questionSentence, questionsApparitionSpeed, questionText);
-        Debug.Log("text affiché");
 
         ShowAnswerSelectionUIElements();
         for (int i = 0; i < answersCount; i++)
@@ -80,8 +76,8 @@ public class DialogueManager : MonoBehaviour
         indexLettre = 0;
         tempText = "";
         TextHandler.text = "";
-
-            while (indexLettre < text.Length)
+        
+        while (indexLettre < text.Length)
         {
             await Task.Yield();
             timer += Time.deltaTime;
@@ -172,8 +168,7 @@ public class DialogueManager : MonoBehaviour
             tempQuestion.reponsesPossibles[0].answersConsequences);
         CloseAnswersSection();
         await AppearText(tempQuestion.reponsesPossibles[0].answerDescription, answerApparitionSpeed, questionText);
-        await Task.Delay(450);
-        GetRandomQuestion();
+        canSkip = true;
     }
 
     private async void DoAnswerY()
@@ -184,8 +179,7 @@ public class DialogueManager : MonoBehaviour
             tempQuestion.reponsesPossibles[1].answersConsequences);
         CloseAnswersSection();
         await AppearText(tempQuestion.reponsesPossibles[1].answerDescription, answerApparitionSpeed, questionText);
-        await Task.Delay(450);
-        GetRandomQuestion();
+        canSkip = true;
     }
 
     private async void DoAnswerB()
@@ -196,8 +190,7 @@ public class DialogueManager : MonoBehaviour
             tempQuestion.reponsesPossibles[2].answersConsequences);
         CloseAnswersSection();
         await AppearText(tempQuestion.reponsesPossibles[2].answerDescription, answerApparitionSpeed, questionText);
-        await Task.Delay(450);
-        GetRandomQuestion();
+        canSkip = true;
     }
 
     private async void DoAnswerA()
@@ -208,12 +201,17 @@ public class DialogueManager : MonoBehaviour
             tempQuestion.reponsesPossibles[3].answersConsequences);
         CloseAnswersSection();
         await AppearText(tempQuestion.reponsesPossibles[3].answerDescription, answerApparitionSpeed, questionText);
-        await Task.Delay(350);
-        GetRandomQuestion();
+        canSkip = true;
     }
 
     public void OnAButton(InputAction.CallbackContext ctx)
     {
+        if (canSkip && ctx.started)
+        {
+            canSkip = false;
+            GetRandomQuestion();
+        }
+        
         if (ctx.started && canAnswer && answersCount == 4)
         {
             DoAnswerA();
