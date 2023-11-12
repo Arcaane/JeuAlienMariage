@@ -20,5 +20,4 @@ MonoBehaviour:
     en expliquant qu'un gros chat serait bien plus \xE0 sa place sur le tr\xF4ne
     et convaincus, les deux comp\xE8res partent d\xE9troner Macronux et ses sbires."
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 03000000010000000200000000000000
+  answersConsequences: 0

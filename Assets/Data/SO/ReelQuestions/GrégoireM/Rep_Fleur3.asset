@@ -18,5 +18,4 @@ MonoBehaviour:
     de pied maitris\xE9 qui montre que le stage de Taekwondo organis\xE9 par la mairie
     de Beauvois-sur-L'escaut a eu un impact important sur vos capacit\xE9s martiales."
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 00000000020000000000000000000000
+  answersConsequences: 1

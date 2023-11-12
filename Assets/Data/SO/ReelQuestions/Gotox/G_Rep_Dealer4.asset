@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: G_Rep_Dealer4
+  m_EditorClassIdentifier: 
+  sentence: "D\xE9cliner poliment"
+  answerDescription: "Vous observez de loin le dealer de substance aqueuse, et d\xE9clinez,
+    mal \xE0 l'aise \xE0 l'id\xE9e de devoir vous hydrater de telle mani\xE8re devant
+    votre date."
+  answersConsequences: 1
+  alienReaction: "Votre date vous rassure : c'\xE9tait une blague ! La simple id\xE9e
+    de braver la loi lui donne de l'urticaire."

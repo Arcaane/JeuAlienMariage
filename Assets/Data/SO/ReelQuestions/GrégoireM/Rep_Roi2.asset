@@ -19,5 +19,4 @@ MonoBehaviour:
     la part des deux animaux qui ne semblent pas \xEAtre du genre \xE0 d\xE9fiscaliser
     leur patrimoine sur la plan\xE8te d'a c\xF4t\xE9. "
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 03000000010000000200000000000000
+  answersConsequences: 1

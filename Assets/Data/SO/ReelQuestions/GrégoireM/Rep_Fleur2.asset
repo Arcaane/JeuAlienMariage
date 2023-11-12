@@ -17,5 +17,4 @@ MonoBehaviour:
     dans un cone comme on en fait plus. Apr\xE8s une taf \xE0 se d\xE9coler le palais,
     vous tendez le boze \xE0 l'alien."
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 03000000010000000000000002000000
+  answersConsequences: 1

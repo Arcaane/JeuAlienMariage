@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
+  m_Name: G_Qu_Notif
+  m_EditorClassIdentifier: 
+  questionSentence: "La X\xE9no-Tablette de l'alien se met \xE0 vibrer et il s'empresse
+    de supprimer la notification, esp\xE9rant que vous ne vous en aperceviez pas."
+  reponsesPossibles:
+  - {fileID: 11400000, guid: af4d9d581898f644cbd363f544d90d34, type: 2}
+  - {fileID: 11400000, guid: 4dbaacc27d0a9184192e09fac1b1239e, type: 2}
+  - {fileID: 11400000, guid: cc229c57999075f45b89e03a0e7f11ea, type: 2}
+  - {fileID: 11400000, guid: 4e9cdce6a7b83234f8fe153c94f6b0cf, type: 2}

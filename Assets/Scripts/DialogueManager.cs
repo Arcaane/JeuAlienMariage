@@ -110,48 +110,15 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    int CalculateAnswerRate(List<Traits> dateTraits, List<Traits> answerTraits, List<Consequences> answerConsequence)
+    int CalculateAnswerRate(Consequences c)
     {
-        int rate = 0;
-        foreach (var dTrait in dateTraits)
-        {
-            for (int i = 0; i < answerTraits.Count; i++)
-            {
-                if (answerTraits[i] == dTrait)
-                {
-                    switch (answerConsequence[i])
-                    {
-                        case Consequences.Positive:
-                            rate += 1;
-                            break;
-                        case Consequences.Negative:
-                            rate -= 1;
-                            break;
-                        case Consequences.VeryNegative:
-                            rate -= 2;
-                            break;
-                        case Consequences.VeryPositive:
-                            rate += 2;
-                            break;
-                    }
-                }
-            }
-        }
-
-        if (rate > 2) rate = 2;
-        if (rate < -2) rate = -2;
-
-        Debug.Log(rate);
-        return rate;
+        if (c == Consequences.Negative) return -1;
+        return 1;
     }
 
     public void GetRandomQuestion()
     {
         if (currentDateQuestions.Count <= 0) SetupQuestions();
-        foreach (var question in currentDateQuestions)
-        {
-            Debug.Log(question);
-        }
         var rand = Random.Range(0, currentDateQuestions.Count);
         tempQuestion = currentDateQuestions[rand];
         currentDateQuestions.RemoveAt(rand);
@@ -160,48 +127,16 @@ public class DialogueManager : MonoBehaviour
 
     #region Input
 
-    private async void DoAnswerX()
+    private async void DoAnswer(int index)
     {
         canAnswer = false;
-        Debug.Log("Player Answer X");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[0].answersTraits,
-            tempQuestion.reponsesPossibles[0].answersConsequences);
+        var a = CalculateAnswerRate(tempQuestion.reponsesPossibles[index].answersConsequences);
         CloseAnswersSection();
-        await AppearText(tempQuestion.reponsesPossibles[0].answerDescription, answerApparitionSpeed, questionText);
+        await AppearText(tempQuestion.reponsesPossibles[index].answerDescription, answerApparitionSpeed, questionText);
         canSkip = true;
-    }
-
-    private async void DoAnswerY()
-    {
-        canAnswer = false;
-        Debug.Log("Player Answer Y");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[1].answersTraits,
-            tempQuestion.reponsesPossibles[1].answersConsequences);
-        CloseAnswersSection();
-        await AppearText(tempQuestion.reponsesPossibles[1].answerDescription, answerApparitionSpeed, questionText);
-        canSkip = true;
-    }
-
-    private async void DoAnswerB()
-    {
-        canAnswer = false;
-        Debug.Log("Player Answer B");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[2].answersTraits,
-            tempQuestion.reponsesPossibles[2].answersConsequences);
-        CloseAnswersSection();
-        await AppearText(tempQuestion.reponsesPossibles[2].answerDescription, answerApparitionSpeed, questionText);
-        canSkip = true;
-    }
-
-    private async void DoAnswerA()
-    {
-        canAnswer = false;
-        Debug.Log("Player Answer A");
-        var a = CalculateAnswerRate(date.dateTraits, tempQuestion.reponsesPossibles[3].answersTraits,
-            tempQuestion.reponsesPossibles[3].answersConsequences);
-        CloseAnswersSection();
-        await AppearText(tempQuestion.reponsesPossibles[3].answerDescription, answerApparitionSpeed, questionText);
-        canSkip = true;
+        if(a > 0)GameUIManager.Instance.AddHeart();
+        else GameUIManager.Instance.PlayerLost();
+        
     }
 
     public void OnAButton(InputAction.CallbackContext ctx)
@@ -214,7 +149,7 @@ public class DialogueManager : MonoBehaviour
         
         if (ctx.started && canAnswer && answersCount == 4)
         {
-            DoAnswerA();
+            DoAnswer(3);
         }
     }
 
@@ -222,7 +157,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (ctx.started && canAnswer && answersCount >= 3)
         {
-            DoAnswerB();
+            DoAnswer(2);
         }
     }
 
@@ -230,7 +165,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (ctx.started && canAnswer && answersCount >= 2)
         {
-            DoAnswerY();
+            DoAnswer(1);
         }
     }
 
@@ -238,7 +173,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (ctx.started && canAnswer && answersCount >= 1)
         {
-            DoAnswerX();
+            DoAnswer(0);
         }
     }
 

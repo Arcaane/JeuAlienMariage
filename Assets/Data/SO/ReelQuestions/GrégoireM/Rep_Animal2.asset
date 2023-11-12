@@ -18,5 +18,4 @@ MonoBehaviour:
     Vous venez de faire preuve d'un grand courage ou d'une grande stupidit\xE9, et
     les gens s'en souviendront."
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 03000000010000000200000000000000
+  answersConsequences: 1
