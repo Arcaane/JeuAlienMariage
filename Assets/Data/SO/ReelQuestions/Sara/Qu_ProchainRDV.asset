@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
+  m_Name: Qu_ProchainRDV
+  m_EditorClassIdentifier: 
+  questionSentence: "Ce rendez-vous est st\xE9llaire! (ahaha ta la ref??) \xE7a se
+    passe si bien que l'alien vous demande si vous pouvez vous revoir: mais o\xF9?"
+  reponsesPossibles:
+  - {fileID: 11400000, guid: c4c2f656c6e1c054385cbb43bf486d61, type: 2}
+  - {fileID: 11400000, guid: 868332eed5b1b5242869f2124cda4170, type: 2}
+  - {fileID: 11400000, guid: 090169e1dd67ac64c9e40ce36c458a49, type: 2}
+  - {fileID: 11400000, guid: 14ff0b8db82d6ba48b245977beb4ebfd, type: 2}
