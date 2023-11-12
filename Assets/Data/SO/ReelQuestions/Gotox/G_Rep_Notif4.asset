@@ -16,6 +16,7 @@ MonoBehaviour:
   answerDescription: "Vous d\xE9gainez votre propre X\xE9no-Tablette et envoyez un
     message \xE0 tous vos contacts. VOTRE date parle \xE0 d'autres personnes que
     vous ? Ca ne se passera pas comme \xE7a. Vous allez d\xE9truire sa r\xE9putation."
-  answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 01000000020000000300000001000000
+  answersConsequences: 1
+  alienReaction: "D\xE9truire ma r\xE9putation ? Je suis li\xE9 \xE0 l'enti\xE8ret\xE9
+    du r\xE9seau Alienkedin de ce syst\xE8me solaire, nous n'avons pas les m\xEAmes
+    valeurs. Manifestement."
