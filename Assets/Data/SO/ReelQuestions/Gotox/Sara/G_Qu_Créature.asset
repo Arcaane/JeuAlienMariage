@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: "G_Qu_Cr\xE9ature"
   m_EditorClassIdentifier: 
   questionSentence: "Un petit... truc vient vers vous. Il ressemble \xE0 la fois
-    \xE0 un poulet (et jparle pas des flics), une tortue et une souris. Votre ali\xE8ne
-    semble beaucoup l'aimer... mais vous n'\xEAtes pas \xE0 l'aise. Que faire?"
+    \xE0 un poulet (et jparle pas des flics), une tortue et une souris. Votre alien
+    semble beaucoup l'aimer... mais vous n'\xEAtes pas \xE0 l'aise. Que faire ?"
   reponsesPossibles:
   - {fileID: 11400000, guid: df257af39922f2d4f989743ed4e244a6, type: 2}
   - {fileID: 11400000, guid: f900809cdf5716346aafdc4c29b55bf7, type: 2}

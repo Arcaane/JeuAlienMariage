@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: "G_Rep_Troisi\xE8meRoue2"
   m_EditorClassIdentifier: 
   sentence: "Int\xE9rrompre l'ali\xE8ne"
-  answerDescription: "Essayer d'interrompre l'ali\xE8ne, qui explique quelque chose
-    passionn\xE9ment en agitant fort ses...  tentacules?, pour le pr\xE9venir."
+  answerDescription: "Essayer d'interrompre l'alien, qui explique quelque chose passionn\xE9ment
+    en agitant fort ses...  tentacules, pour le pr\xE9venir."
   answersConsequences: 1
-  alienReaction: "Il vous engueuele tr\xE8s fort parce qu vous l'avez interrompu
-    et se fait assomer par l'agresseur. Ce n'est qu'apr\xE8s que vous l'ayiez battu
-    en 1v1 sans r\xE9gl\xE8s que Gotgotus se r\xE9veille, et continue \xE0 se plaindre."
+  alienReaction: "Il vous engueule fort parce qu vous l'avez interrompu et se fait
+    assomer par l'agresseur. Ce n'est qu'apr\xE8s que vous l'ayiez battu en 1v1 sans
+    r\xE9gl\xE8s que Gotgotus se r\xE9veille, et continue \xE0 se plaindre."

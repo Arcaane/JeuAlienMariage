@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: G_Rep_Religion4
   m_EditorClassIdentifier: 
   sentence: Avez-vous entendu parler de Zerg, notre seigneur et sauveur?
-  answerDescription: "Je suis un membre du groupe des Saints Sauvers de l'espace,
+  answerDescription: "Je suis un membre du groupe des Saints Sauveurs de l'espace,
     un groupuscule religieux avec seulement une faible d\xE9rive sectaire!"
   answersConsequences: 1
   alienReaction: "\"...Ok...\" \nIl s'\xE9loigne lentement de vous."

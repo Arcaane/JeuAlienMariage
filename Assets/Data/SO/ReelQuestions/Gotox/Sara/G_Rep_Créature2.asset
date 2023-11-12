@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence: "Se d\xE9barasser de la cr\xE9ature, qui g\xE8ne le date"
   answerDescription: "Vous \xEAtes pas fan d'animaux ou de cr\xE9atures en g\xE9neral.
-    Vous kickez donc la cr\xE9ature dans l'espace d\xE8s que l'ali\xE8ne tourne la
-    t\xEAte, mais il revient imm\xE9diatement??? Pas de chance. "
+    Vous kickez donc la cr\xE9ature dans l'espace d\xE8s que l'alien tourne la t\xEAte,
+    mais il revient imm\xE9diatement ? Pas de chance. "
   answersConsequences: 0
   alienReaction: "\"J'aime ton esprit de d\xE9cision. D'ailleurs, tr\xE8s beau lancer.\""
