@@ -14,6 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence: Miaou
   answerDescription: Woof WOOF
-  answersSprite: {fileID: 0}
-  answersTraits: 000000000100000003000000
-  answersConsequences: 000000000000000000000000
+  answersConsequences: 0
+  alienReaction: esgd

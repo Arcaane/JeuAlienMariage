@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2247df84-bcb0-4f48-bf0d-bedc666f890b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DatesEnum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DatesEnum.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 1 Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 1 Test.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 2 Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 2 Test.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 3 Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 3 Test.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer1 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer1 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer1 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer1 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer2 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer2 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer2 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer2 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer3 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer3 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer3 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer3 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer4 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer4 1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer4 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer4 2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameUIManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerScreen.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +56,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "new__Sacha__branch",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
