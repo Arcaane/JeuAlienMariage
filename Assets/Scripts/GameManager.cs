@@ -78,10 +78,13 @@ public class GameManager : MonoBehaviour
         switch (date)
         {
             case 1 :
-                chosenDate = DatesEnum.Dates.Alien1;
+                chosenDate = DatesEnum.Dates.Gloub;
                 break;
             case 2 :
-                chosenDate = DatesEnum.Dates.Alien2;
+                chosenDate = DatesEnum.Dates.Gotgotus;
+                break;
+            case 3 :
+                chosenDate = DatesEnum.Dates.Graillax;
                 break;
             default:
                 return;

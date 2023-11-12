@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -32,6 +33,7 @@ public class DialogueManager : MonoBehaviour
 
     private int selectedAnswer;
     public bool canSkip;
+    public Image dateImage;
     
     // Start is called before the first frame update
     void Start()
@@ -59,8 +61,9 @@ public class DialogueManager : MonoBehaviour
     {
         QuestionSection.SetActive(true);
         answersCount = tempQuestion.reponsesPossibles.Length;
+        dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[0];
         await AppearText(tempQuestion.questionSentence, questionsApparitionSpeed, questionText);
-
+        
         ShowAnswerSelectionUIElements();
         for (int i = 0; i < answersCount; i++)
         {
@@ -134,8 +137,17 @@ public class DialogueManager : MonoBehaviour
         CloseAnswersSection();
         await AppearText(tempQuestion.reponsesPossibles[index].answerDescription, answerApparitionSpeed, questionText);
         canSkip = true;
-        if(a > 0)GameUIManager.Instance.AddHeart();
-        else GameUIManager.Instance.PlayerLost();
+        await AppearText(tempQuestion.reponsesPossibles[index].alienReaction, answerApparitionSpeed, questionText);
+        if (a > 0)
+        {
+            GameUIManager.Instance.AddHeart();
+            dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[1];
+        }
+        else
+        {
+            GameUIManager.Instance.PlayerLost();
+            dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[2];
+        }
         
     }
 

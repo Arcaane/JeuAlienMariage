@@ -5,8 +5,9 @@ public static class DatesEnum
     [Serializable]
     public enum Dates
     {
-        Alien1 = 1,
-        Alien2 = 2,
+        Gloub = 1,
+        Gotgotus = 2,
+        Graillax = 3,
     }
 }
 

@@ -36,6 +36,7 @@ public class GameUIManager : MonoBehaviour
         dialogueManager.hideUI.SetActive(false);
         playerAnouncementTransform.gameObject.SetActive(true);
         dateTr.position = new Vector3(0, -1080, 0);
+        dialogueManager.dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[0];
         textBox.gameObject.SetActive(false);
         answerSection.SetActive(false);
         dateTr.DOAnchorPos(new Vector3(-375, -20, 0), 0.85f);
