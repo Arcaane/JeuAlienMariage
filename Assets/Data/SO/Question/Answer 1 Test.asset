@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Answer 1 Test
   m_EditorClassIdentifier: 
   sentence: Cimer le S
+  answerDescription: ughyugvutvtgtu
   answersSprite: {fileID: 0}
   answersTraits: 0300000002000000
   answersConsequences: 0200000000000000

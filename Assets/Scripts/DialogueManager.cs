@@ -75,7 +75,7 @@ public class DialogueManager : MonoBehaviour
         tempText = "";
         TextHandler.text = "";
 
-        while (indexLettre < text.Length)
+            while (indexLettre < text.Length)
         {
             await Task.Yield();
             timer += Time.deltaTime;

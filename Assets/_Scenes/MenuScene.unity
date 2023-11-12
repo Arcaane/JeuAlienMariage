@@ -1157,11 +1157,17 @@ MonoBehaviour:
   - date: 1
     dateData:
       dateTraits: 0100000003000000
-      questions: []
+      questions:
+      - {fileID: 11400000, guid: f73803009dfde78428640c887f59abf1, type: 2}
+      - {fileID: 11400000, guid: 2a4865fefd5d582408dc4339e454040e, type: 2}
+      - {fileID: 11400000, guid: 33bfa6a119a17d84ca6ca316a91716d1, type: 2}
   - date: 2
     dateData:
       dateTraits: 0000000002000000
-      questions: []
+      questions:
+      - {fileID: 11400000, guid: f73803009dfde78428640c887f59abf1, type: 2}
+      - {fileID: 11400000, guid: 2a4865fefd5d582408dc4339e454040e, type: 2}
+      - {fileID: 11400000, guid: 33bfa6a119a17d84ca6ca316a91716d1, type: 2}
 --- !u!4 &576281870
 Transform:
   m_ObjectHideFlags: 0

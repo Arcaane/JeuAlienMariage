@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Answer 3 Test
   m_EditorClassIdentifier: 
   sentence: Miaou
+  answerDescription: Woof WOOF
   answersSprite: {fileID: 0}
   answersTraits: 000000000100000003000000
   answersConsequences: 000000000000000000000000
