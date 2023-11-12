@@ -6,58 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2247df84-bcb0-4f48-bf0d-bedc666f890b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/A.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/A.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Answerbox01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Answerbox01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/B.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/B.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Dialoguebox2 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Dialoguebox2 1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Dialoguebox2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Dialoguebox2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranbleu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranbleu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranjaune.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranjaune.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranrouge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranrouge.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranvert.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranvert.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart04.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Heart05.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Jaugeheart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Jaugeheart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/PLANETE_BODINEX.png.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/PLANETE_BODINEX.png.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/PLANETE_GLOUB_assombri.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/PLANETE_GLOUB_assombri.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Planete_colere.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Planete_colere.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/Startingscreen.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/UI/Startingscreen.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/X.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/X.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Y.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Y.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/Input/JeuAlienMariage.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Input/JeuAlienMariage.inputactions" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowleft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowleft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowright.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowright.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlineheartbutton.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tinderoutlineheartbutton.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerScreen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/UIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/UIManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChooseRizzTargetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChooseRizzTargetUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

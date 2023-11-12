@@ -49,6 +49,7 @@ public class GameUIManager : MonoBehaviour
 
     private async void LaunchText()
     {
+        await Task.Delay(3000);
         await dialogueManager.AppearText(startText, dialogueManager.questionsApparitionSpeed, dialogueManager.questionText);
         await Task.Delay(2000);
         textBox.gameObject.SetActive(false);
