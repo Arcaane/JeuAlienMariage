@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -11,7 +12,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject chooseTargetUI;
     //[SerializeField] private GameObject inGameUIHandler;
     
-    [SerializeField] private EventSystem eventSystem;
+    public EventSystem eventSystem;
     [SerializeField] private GameObject[] firstSelectedByPannels;
     
     [Header("Background")]
@@ -86,9 +87,12 @@ public class UIManager : MonoBehaviour
         ActivatePhase();
     }
 
-    public void ActivatePreviousPhase()
+    public void ActivatePreviousPhase(InputAction.CallbackContext ctx)
     {
-        currentPhaseIndex--;
-        ActivatePhase();
+        if (ctx.started)
+        {
+            currentPhaseIndex--;
+            ActivatePhase();
+        }
     }
 }
