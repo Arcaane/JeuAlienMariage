@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.Serialization;
 
 public class UIManager : MonoBehaviour
@@ -10,6 +11,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject chooseTargetUI;
     //[SerializeField] private GameObject inGameUIHandler;
     [SerializeField] private GameObject background;
+    
+    [SerializeField] private EventSystem eventSystem;
+    [SerializeField] private GameObject[] firstSelectedByPannels;
 
     private void Start()
     {
@@ -33,15 +37,18 @@ public class UIManager : MonoBehaviour
                 break;
             case 1:
                 DeactivateUI();
+                eventSystem.SetSelectedGameObject(firstSelectedByPannels[0]);
                 choosePlayerCountUI.SetActive(true);
                 break;
             case 2:
                 DeactivateUI();
                 chooseCharacterUI.SetActive(true);
+                eventSystem.SetSelectedGameObject(firstSelectedByPannels[1]);
                 break;
             case 3:
                 DeactivateUI();
                 chooseTargetUI.SetActive(true);
+                eventSystem.SetSelectedGameObject(firstSelectedByPannels[2]);
                 break;
             case 4:
                 DeactivateUI();

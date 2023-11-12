@@ -17,7 +17,6 @@ public class ChooseCharacterUI : MonoBehaviour
         public TextMeshProUGUI text;
         public Sprite sprite;
         public bool spriteSet;
-        public Animator anim;
     }
 
     private void OnEnable()
@@ -40,7 +39,6 @@ public class ChooseCharacterUI : MonoBehaviour
         buttons[index].buttonBackground.color = GameManager.Instance.GetActiveColor();
         buttons[index].spriteSet = true;
         buttons[index].button.enabled = false;
-        buttons[index].anim.Play("Selected");
         NextPlayer();
     }
 
@@ -53,7 +51,7 @@ public class ChooseCharacterUI : MonoBehaviour
             if (button.spriteSet) playerValidateCount++;
         }
         
-        return playerValidateCount == GameManager.Instance.players.Count;
+        return playerValidateCount == GameManager.Instance.players.Count + 1;
     }
     
     private void NextPlayer()
