@@ -41,7 +41,7 @@ public class GameUIManager : MonoBehaviour
         GameManager.Instance.uiManager.SetBackground(GameManager.Instance.GetCurrentDate().background);
         textBox.gameObject.SetActive(false);
         answerSection.SetActive(false);
-        dateTr.DOAnchorPos(new Vector3(-375, -20, 0), 0.85f);
+        dateTr.DOAnchorPos(new Vector3(-420, -20, 0), 0.85f);
         Task.Delay(250);
         textBox.gameObject.SetActive(true);
         LaunchText();
@@ -49,6 +49,7 @@ public class GameUIManager : MonoBehaviour
 
     private async void LaunchText()
     {
+        await Task.Delay(3000);
         await dialogueManager.AppearText(startText, dialogueManager.questionsApparitionSpeed, dialogueManager.questionText);
         await Task.Delay(2000);
         textBox.gameObject.SetActive(false);
@@ -81,9 +82,13 @@ public class GameUIManager : MonoBehaviour
     {
         losingScreen.SetActive(true);
         await Task.Delay(3500);
+        dialogueManager.questionText.text = null;
+        losingScreen.SetActive(false);
         GameManager.Instance.SetNextPlayer();
         ResetScene();
         await AnimDisplayPlayerTurn();
+        dialogueManager.playerLost = false;
+        dialogueManager.RestartDialogues();
     }
     
     public void ResetScene()
@@ -95,6 +100,5 @@ public class GameUIManager : MonoBehaviour
         }
         playerScreen.SetupImage(playerScreens[GameManager.Instance.GetActivePlayer().GetIndex()]);
     }
-    
     
 }

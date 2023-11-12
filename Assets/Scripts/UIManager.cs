@@ -17,6 +17,7 @@ public class UIManager : MonoBehaviour
     [Header("Background")]
     [SerializeField] private Image background;
     [SerializeField] private Sprite[] menuBackground;
+    private int currentPhaseIndex;
         
     private void Start()
     {
@@ -27,11 +28,9 @@ public class UIManager : MonoBehaviour
         }
     }
 
-    private int currentPhaseIndex;
 
     public void ActivatePhase()
     {
-        Debug.Log(currentPhaseIndex);
         switch (currentPhaseIndex)
         {
             case 0:

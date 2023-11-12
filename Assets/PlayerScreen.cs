@@ -6,8 +6,9 @@ using UnityEngine.UI;
 public class PlayerScreen : MonoBehaviour
 {
     public GameObject[] hearts;
-    private Image image;
+    [SerializeField] private Image image;
 
+    
     public void SetupImage(Sprite sprite)
     {
         image.sprite = sprite;

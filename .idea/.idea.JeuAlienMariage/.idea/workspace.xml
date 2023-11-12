@@ -6,26 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2247df84-bcb0-4f48-bf0d-bedc666f890b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 1 Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 1 Test.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 2 Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 2 Test.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 3 Test.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/Question/Answer 3 Test.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer1 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer1 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer1 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer1 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer2 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer2 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer2 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer2 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer3 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer3 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer3 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer3 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer4 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer4 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer4 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_Dealer4 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Rep_SweetEscape4.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowleft.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowleft.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowright.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowright.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlineheartbutton.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Tinderoutlineheartbutton.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameUIManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerScreen.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/UIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/UIManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChooseRizzTargetUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChooseRizzTargetUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +24,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DatesEnum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,26 +40,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "new__Sacha__branch",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;new__Sacha__branch&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\s.villecroze\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\s.villecroze\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\s.villecroze\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\s.villecroze\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\s.villecroze\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\s.villecroze\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe" />

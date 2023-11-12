@@ -77,13 +77,13 @@ public class GameManager : MonoBehaviour
         DatesEnum.Dates chosenDate;
         switch (date)
         {
-            case 1 :
+            case 0 :
                 chosenDate = DatesEnum.Dates.Gloup;
                 break;
-            case 2 :
+            case 1 :
                 chosenDate = DatesEnum.Dates.Gotgotus;
                 break;
-            case 3 :
+            case 2 :
                 chosenDate = DatesEnum.Dates.Graillax;
                 break;
             default:
@@ -107,6 +107,12 @@ public class GameManager : MonoBehaviour
     public void AddHeart()
     {
         currentPlayerHearts ++;
+        if(currentPlayerHearts >= 5) PlayerWin();
+    }
+
+    private void PlayerWin()
+    {
+        Debug.Log("J'ai gagné zebi");
     }
     
     [Serializable] 
