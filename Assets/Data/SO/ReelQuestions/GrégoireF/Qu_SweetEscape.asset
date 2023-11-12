@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
+  m_Name: Qu_SweetEscape
+  m_EditorClassIdentifier: 
+  questionSentence: "\"Et si on d\xE9cidait de partir loin, tous les deux, toi et
+    moi, maintenant ?\""
+  reponsesPossibles:
+  - {fileID: 11400000, guid: 1c0389af1abbe554a91a15d39a33bfe5, type: 2}
+  - {fileID: 11400000, guid: 195903db02c373c4caabf41a6169804f, type: 2}
+  - {fileID: 11400000, guid: bae91ecdabab9d64f811b68e9daa42ff, type: 2}
+  - {fileID: 11400000, guid: 1f320d680df0d9b478ed495d6d6a4e10, type: 2}

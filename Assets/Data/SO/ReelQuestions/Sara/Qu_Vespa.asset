@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
+  m_Name: Qu_Vespa
+  m_EditorClassIdentifier: 
+  questionSentence: "Vous d\xE9cidez qu'il n'y a rien de plus romantique qu'une balade
+    en Vespa. Probl\xE8me: la Vespa ne d\xE9marre pas. Mamma mia! C'est l'occasion
+    de montrer \xE0 votre date que vous savez prendre en main les choses."
+  reponsesPossibles:
+  - {fileID: 11400000, guid: f0c95563bad18a349a79e67869dec5a9, type: 2}
+  - {fileID: 11400000, guid: d20f4662cba8f324f89dfa67df87800c, type: 2}
+  - {fileID: 11400000, guid: 9ecbe09827fa14146ba8553a8e13c4c8, type: 2}
+  - {fileID: 11400000, guid: 7c7adef4c737cf74996611bc0b370f1a, type: 2}

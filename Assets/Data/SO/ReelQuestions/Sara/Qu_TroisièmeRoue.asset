@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
+  m_Name: "Qu_Troisi\xE8meRoue"
+  m_EditorClassIdentifier: 
+  questionSentence: "Le rendez vous se passe bien, mais soudainement, d\xE8rri\xE9re
+    l'ali\xE8ne se profile une figure sombre, qui l\xE8ve les bras (?), pr\xEAte
+    \xE0 attaquer\u2026  "
+  reponsesPossibles:
+  - {fileID: 11400000, guid: f7e32a5a3b9f0bf4d9ea9b3520835812, type: 2}
+  - {fileID: 11400000, guid: 7c1c3f98a5dcc154084c9b6993bdee99, type: 2}
+  - {fileID: 11400000, guid: 2f26c29e94137464fb69649b932d665a, type: 2}
+  - {fileID: 11400000, guid: dc87e83c8f2b0574cae34f64c9473862, type: 2}
