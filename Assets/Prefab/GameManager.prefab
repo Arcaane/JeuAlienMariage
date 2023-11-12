@@ -65,7 +65,8 @@ MonoBehaviour:
       background: {fileID: 21300000, guid: c16e4fb68200d034bb084d85853873d6, type: 3}
   - date: 2
     dateData:
-      questions: []
+      questions:
+      - {fileID: 0}
       spritesAliens:
       - {fileID: 21300000, guid: 1ce984cf1abde8443bdc01c40659dee6, type: 3}
       - {fileID: 21300000, guid: b0a931446aaface4bb837d9b7934884a, type: 3}
