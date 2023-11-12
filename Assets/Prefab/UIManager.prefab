@@ -3576,21 +3576,25 @@ MonoBehaviour:
     buttonBackground: {fileID: 5259758984760344622}
     text: {fileID: 1407483739225291106}
     sprite: {fileID: 21300000, guid: 9d011b473e7132142a886c238ffa34f7, type: 3}
+    kissSprite: {fileID: 21300000, guid: a9f8079be71c81f46a8bdbcfff85410c, type: 3}
     spriteSet: 0
   - button: {fileID: 7527721915500983746}
     buttonBackground: {fileID: 5952308997099716067}
     text: {fileID: 662469417241950480}
     sprite: {fileID: 21300000, guid: 06a6e3e1d8ae4c0428c92880b822326a, type: 3}
+    kissSprite: {fileID: 21300000, guid: b64122115ee207642a7f504970b63c57, type: 3}
     spriteSet: 0
   - button: {fileID: 7828961923233878963}
     buttonBackground: {fileID: 2308530133522304689}
     text: {fileID: 8614236344241633621}
     sprite: {fileID: 21300000, guid: 352f677b53ac3754093dcca950e4e147, type: 3}
+    kissSprite: {fileID: 21300000, guid: 966104fe241be7e489c21ce07e702ab1, type: 3}
     spriteSet: 0
   - button: {fileID: 501481928144754425}
     buttonBackground: {fileID: 2230258489357722000}
     text: {fileID: 2022311312767158636}
     sprite: {fileID: 21300000, guid: a302bc3535c7ce44694b63b3e7e6e918, type: 3}
+    kissSprite: {fileID: 21300000, guid: e8274fa3bd9b196458533ca02f2353b9, type: 3}
     spriteSet: 0
   titleText: {fileID: 6248709118114742516}
 --- !u!1 &4614529081904694316

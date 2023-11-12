@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2247df84-bcb0-4f48-bf0d-bedc666f890b" name="Changes" comment="" />
+    <list default="true" id="2247df84-bcb0-4f48-bf0d-bedc666f890b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animheartbroken.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Animheartbroken.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranopaque.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Ecranopaque.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_outlinequitter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_outlinequitter.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_outlinereprendre.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_outlinereprendre.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_outlinesettings.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_outlinesettings.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_quitter (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_quitter (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_reprendre (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_reprendre (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_settings (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Art/Pause_settings (1).png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefab/UIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/UIManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ChooseCharacterUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ChooseCharacterUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Date.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Date.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/MenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +39,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Endgame.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PauseMenu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DatesEnum.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,7 +61,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "new__Sacha__branch",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

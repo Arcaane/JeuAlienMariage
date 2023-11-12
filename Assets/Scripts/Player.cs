@@ -6,6 +6,7 @@ public class Player
     private int playerIndex;
     private Color color;
     private Sprite playerSprite;
+    private Sprite kissSprite;
     private int playerScore;
 
     public int GetIndex()
@@ -51,6 +52,16 @@ public class Player
     public bool CheckPoints()
     {
         return playerScore >= 100;
+    }
+
+    public void SetKissSprite(Sprite sprite)
+    {
+        kissSprite = sprite;
+    }
+
+    public Sprite GetKissSprite()
+    {
+        return kissSprite;
     }
     
 }
