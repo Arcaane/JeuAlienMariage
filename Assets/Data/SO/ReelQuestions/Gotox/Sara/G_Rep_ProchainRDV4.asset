@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence: Le date mielleux
   answerDescription: "Les anneaux de Saturne sont le meilleur endroit o\xF9 je pourrais
-    t'amener, ma p\xE9tite cr\xE9ature en sucre."
+    t'amener, ma petite cr\xE9ature en sucre."
   answersConsequences: 1
   alienReaction: "Il est \xE0 la fois g\xE9n\xE9, d\xE9gout\xE9, et terrifi\xE9 par
-    vos paroles. C'est assez surprennat d'extraire autant d'\xE9motions de la part
+    vos paroles. C'est assez surprenant d'extraire autant d'\xE9motions de la part
     de quelqu'un."

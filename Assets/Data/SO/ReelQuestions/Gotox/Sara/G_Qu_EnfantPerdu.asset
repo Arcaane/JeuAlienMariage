@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
   m_Name: G_Qu_EnfantPerdu
   m_EditorClassIdentifier: 
-  questionSentence: 'Pendant votre petite balade,un enfant alien vous approche en
+  questionSentence: 'Pendant votre petite balade, un enfant alien vous approche en
     larmes: il dit avoir perdu ses parents dans le parc: c''est le moment de mettre
-    en avant votre compassion et talents avec les gens.'
+    en avant vos talents avec les gens.'
   reponsesPossibles:
   - {fileID: 11400000, guid: d9e84ca8f8a346946b2f334ecbb52579, type: 2}
   - {fileID: 11400000, guid: 89e731ab5c37e1142944652fb5329530, type: 2}

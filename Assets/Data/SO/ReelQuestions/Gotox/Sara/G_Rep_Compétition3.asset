@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence: Juste s'amuser
   answerDescription: "Vous jouez sans prise de t\xEAte: vous \xEAtes ici avant tout
-    pour vous amuser (et pour perdre, apparament)!"
+    pour vous amuser (et pour perdre, apparement) !"
   answersConsequences: 0
   alienReaction: "\"J'appr\xE9cie ton sacrifice sur l'autel de ma grandeur.\""

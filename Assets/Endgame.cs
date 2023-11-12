@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Endgame : MonoBehaviour
@@ -15,6 +17,8 @@ public class Endgame : MonoBehaviour
     [SerializeField] private Image kissPlayerImage;
     [SerializeField] private Image kissAlienImage;
     [SerializeField] private GameObject endScreen;
+    [SerializeField] private EventSystem _eventSystem;
+    [SerializeField] private GameObject button;
     public void Start()
     {
         Initialize();
@@ -27,6 +31,7 @@ public class Endgame : MonoBehaviour
         kissAlienImage.sprite = alienKissSprite[GameManager.Instance.GetCurrentDate().alienIndex];
         kissPlayerImage.sprite = GameManager.Instance.GetActivePlayer().GetKissSprite();
         Animation();
+        _eventSystem.SetSelectedGameObject(button);
     }
 
     private async void Animation()
@@ -35,5 +40,11 @@ public class Endgame : MonoBehaviour
         playerImage.gameObject.SetActive(false);
         alienImage.gameObject.SetActive(false);
         endScreen.SetActive(true);
+    }
+
+    public void LoadStartScene()
+    {
+        GameManager.Instance.uiManager.SetPhaseIndex(0);
+        SceneManager.LoadScene(0);
     }
 }
