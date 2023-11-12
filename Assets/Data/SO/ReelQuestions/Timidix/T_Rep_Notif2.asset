@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
   m_Name: T_Rep_Notif2
   m_EditorClassIdentifier: 
-  sentence: Le questionner
-  answerDescription: Vous jetez un oeil devant vous, tentant de savoir de qui il
-    s'agit, et lui posez la question.
+  sentence: Se renseigner
+  answerDescription: "Vous vous penchez en avant pour mieux voir l'appareil, tentant
+    de savoir de qui il s'agit, et vous pr\xE9parez \xE0 lui posez la question."
   answersConsequences: 1
-  alienReaction: "Tu vas beaucoup trop loin, je suis un businessman respectable et
-    mes secrets n'appartiennent qu'\xE0 moi !"
+  alienReaction: "En vous avan\xE7ant pour mieux voir la tablette, votre t\xEAte
+    s'entrechoque avec celle de Gloub qui cherche nerveusement \xE0 s'excuser. Vous
+    l'assomez sur le coup et elle se r\xE9veille aux urgences avec 2 points de sutures.
+    Pas s\xFBr que \xE7a passe pour un prochain date."

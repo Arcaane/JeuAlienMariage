@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: V_Rep_Fleur2
+  m_EditorClassIdentifier: 
+  sentence: En faire un gros teh
+  answerDescription: "Vous recueillez la substance chimique, l'effritez et la roulez
+    dans un cone comme on en fait plus. Apr\xE8s une taf \xE0 se d\xE9coler le palais,
+    vous tendez le boze \xE0 l'alien."
+  answersConsequences: 0
+  alienReaction: "\"Faire preuve d'un peu de cr\xE9ativit\xE9 dans les temps difficiles
+    (c'est \xE0 dire ceux sans violence pour lui), c'est une grande qualit\xE9, f\xE9licitations.\" "

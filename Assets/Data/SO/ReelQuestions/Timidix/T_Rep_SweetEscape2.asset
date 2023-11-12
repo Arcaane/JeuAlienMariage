@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
   m_Name: T_Rep_SweetEscape2
   m_EditorClassIdentifier: 
-  sentence: "Vir\xE9e \xE0 Androm\xE8de avec votre bolide"
+  sentence: Roadtrip dans votre bolide
   answerDescription: "L'alien ne sait pas \xE0 quel point il a raison de vous avoir
     pos\xE9 cette question... Vous \xEAtes un as du panneau de contr\xF4le, et votre
     vaisseau est pr\xEAt \xE0 tous les \xE9ventuels p\xE9riples \xE0 travers l'univers."
-  answersConsequences: -1763801984
-  alienReaction: "\"Mais non... C'est un Mazeratix ?? J'ai toujours r\xEAv\xE9 d'en
-    piloter un !\" L'alien jette un oeil aux contr\xF4les du vaisseau et d\xE9pose
-    un baiser sur sa coque tun\xE9e."
+  answersConsequences: 1
+  alienReaction: '"Mais toutes mes affaires chez moi ne rentreront jamais dans cette
+    voiture, je n''ai aucune envie de partir."'

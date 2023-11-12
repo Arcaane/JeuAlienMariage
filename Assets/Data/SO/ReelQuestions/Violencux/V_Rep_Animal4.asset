@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: V_Rep_Animal4
+  m_EditorClassIdentifier: 
+  sentence: "En faire un manteau pour votre bien-aim\xE9"
+  answerDescription: "Vous utilisez vos connaissances acquises lors de vos ann\xE9es
+    d'anti-scouts (c'est des m\xE9chants scouts) pour tendre un pi\xE8ge \xE0 l'adorable
+    cr\xE9ature en utilisant une chaussette coup\xE9e en deux remplie avec du sirop.
+    Apr\xE8s une demi-heure de bataille intensive vous obtenez de quoi faire une
+    paire de mouffle qui fera palir les plus grands fashionistas de la capitale galactique."
+  answersConsequences: 0
+  alienReaction: "\"Belle chasse ! Ces mouffles sont superbes, c'est parfait je n'avais
+    plus d'endroit o\xF9 conserv\xE9s mes mains coup\xE9es.\" Grallax a vraiment
+    toujours le mot pour rire ah..ah..ah."

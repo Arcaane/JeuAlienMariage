@@ -17,7 +17,7 @@ MonoBehaviour:
     l'hymne de la plan\xE8te \xE9crite par le c\xE9l\xE8bre chanteur Damsus. Votre
     repr\xE9sentation laisse s'exprimer votre profond amour pour le royaume et ses
     institutions. Faux-cul va. "
-  answersConsequences: 0
-  alienReaction: "C'\xE9tait une magnifique repr\xE9sentation ! Je me rapelle avoir
-    chanter l'hymne mainte fois avec mes parents lors des r\xE9unions d'entreprises,
-    merci pour ces bons souvenirs !"
+  answersConsequences: 1
+  alienReaction: "Gloub n'a pas d'avis fort sur la monarchie du royaume, mais iel
+    a un avis fort sur votre voix et sur les fausses notes qui l'accompagnent. Les
+    propos ne seront pas retranscrit ici pour ne pas heurter votre sensibilit\xE9."

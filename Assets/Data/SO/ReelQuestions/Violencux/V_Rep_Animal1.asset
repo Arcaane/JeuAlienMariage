@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: V_Rep_Animal1
+  m_EditorClassIdentifier: 
+  sentence: Aller le caresser
+  answerDescription: "La cr\xE9ature \xE9tait d\xE9finitivement trop mignonne pour
+    laisser passer cette occasion mais c'est aussi le carnivore le plus dangereux
+    de la plan\xE8te. Vous venez de faire preuve d'un grand courage ou d'une grande
+    stupidit\xE9, et les gens s'en souviendront."
+  answersConsequences: 1
+  alienReaction: "\"Tu t'es soumis \xE0 cette cr\xE9ature ! L'objectif \xE9tait de
+    l'affronter en duel, pas de lui faire plaisir !\". Grallax ne comprend d\xE9finitivement
+    qu'on puisse partager le plaisir, dommage c'est ce que vous souhaitiez lui faire
+    d\xE9couvrir. "

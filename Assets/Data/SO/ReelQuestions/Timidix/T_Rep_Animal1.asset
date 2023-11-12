@@ -17,7 +17,7 @@ MonoBehaviour:
     passer cette occasion mais c'est aussi le carnivore le plus dangereux de la plan\xE8te.
     Vous venez de faire preuve d'un grand courage ou d'une grande stupidit\xE9, et
     les gens s'en souviendront."
-  answersConsequences: 1
-  alienReaction: "Vous venez faire preuve soit d'une t\xE9m\xE9rit\xE9 inconsid\xE9r\xE9e,
-    soit d'une idiotie sans borne. Dans les deux cas, ce ne sont pas les valeurs
-    d'un bon investisseur, cela ne peut donc pas marcher entre nous."
+  answersConsequences: 0
+  alienReaction: "\"J'ai toujours r\xE9v\xE9 d'une occasion de caresser un grand
+    carnassier d\xE9moniaque comme vous, on m'a dit que j'\xE9tais compl\xE9tement
+    folle mais grace \xE0 vos action, je retrouve confiance en moi \xE0 nouveau !\""

@@ -15,8 +15,9 @@ MonoBehaviour:
   sentence: Grailler la fleur
   answerDescription: "Vous attrapez la fleur et goutez un p\xE9tale, vous \xEAtes
     surpris de d\xE9couvrir une saveur Tenders - Cordon Bleu - Sauce Fromag\xE8re
-    qui r\xE9galerait grands et petits. Vous d\xE9cidez alors de faire croquer le
-    fr\xE9rot alien."
-  answersConsequences: 1
-  alienReaction: "Je ne m'abaisserais jamais \xE0 me nourrir de mets si peu raffin\xE9s
-    alors que je fr\xE9quente les meilleurs restaurants de la plan\xE8te."
+    qui r\xE9galerait grands et petits. Vous d\xE9cidez alors de faire croquer la
+    fr\xE9rote alien."
+  answersConsequences: 0
+  alienReaction: "\" Oh la dinguezed\", comme dirait toute personne avec une \xE9locution
+    jeune et dynamique face \xE0 ce poulet m\xE9taphorique parce que c'est une fleur
+    en fait. En tout cas elle a bien aim\xE9."

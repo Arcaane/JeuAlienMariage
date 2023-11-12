@@ -3255,8 +3255,8 @@ MonoBehaviour:
     tempor incididunt ut labore. Ut enim ad minim veniam, quis nostrud exercitation
     ullamco laboris nisi ut aliquip ex ea commodo consequat ?'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 4ff62a7eb8afad246a5ebaf7133712e9, type: 2}
-  m_sharedMaterial: {fileID: -1509186503478577060, guid: 4ff62a7eb8afad246a5ebaf7133712e9, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8d692c9f7e54c73468e0b1cc2dec5c1b, type: 2}
+  m_sharedMaterial: {fileID: 7457926533582227302, guid: 8d692c9f7e54c73468e0b1cc2dec5c1b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

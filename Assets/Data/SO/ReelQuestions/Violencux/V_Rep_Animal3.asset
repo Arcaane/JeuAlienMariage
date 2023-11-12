@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: V_Rep_Animal3
+  m_EditorClassIdentifier: 
+  sentence: "L'accuser d'\xEAtre un furry d\xE9guis\xE9"
+  answerDescription: "C'est juste Silver un grand loup gris, om\xE9ga de la meute,
+    Il cherche \xE0 prendre sa revanche sur Seraphin Darkstar, l'alpha qui a mang\xE9
+    ses parents la veille de son 6\xE8me anniversaire (45 ans en ann\xE9e de loup
+    gris). "
+  answersConsequences: 1
+  alienReaction: "\"Oh le sang, t'y as trop tir\xE9 sur le J, tu racontes n'importes
+    quoi !\" Non Grallax, j'ai pas dormi depuis 32 heures et il faut 4 r\xE9ponses
+    \xE0 cette question, alors n'essais m\xEAme pas de me dire ce que je peux faire
+    et pas faire."
