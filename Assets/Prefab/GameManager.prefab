@@ -69,10 +69,11 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 8cecafdebcb58ab42918d644d721aafa, type: 2}
       - {fileID: 11400000, guid: f7471dd9442b2a04e9d0d35cdc5f9e6c, type: 2}
       spritesAliens:
-      - {fileID: 21300000, guid: 38718e4e5028e2542adb944c47bb9724, type: 3}
-      - {fileID: 21300000, guid: 0d4965d8bb8eddf4fb226bba4c8d6fb4, type: 3}
-      - {fileID: 21300000, guid: 8131e81cb4656bc4f88046217b0e54a4, type: 3}
-      background: {fileID: 21300000, guid: c16e4fb68200d034bb084d85853873d6, type: 3}
+      - {fileID: 21300000, guid: 1dfd4d1e349c5ed4ba24abadbac30b2c, type: 3}
+      - {fileID: 21300000, guid: 86adb4817743ffa4499724a8c18b2430, type: 3}
+      - {fileID: 21300000, guid: 0454181b372cfd34c9810fffe9dd425c, type: 3}
+      background: {fileID: 21300000, guid: 7487b0127c653bf4f943b68df2b4156b, type: 3}
+      alienIndex: 0
   - date: 2
     dateData:
       questions:
@@ -90,10 +91,11 @@ MonoBehaviour:
       - {fileID: 11400000, guid: a958083a20aa18b4cb81da5d3b7258f1, type: 2}
       - {fileID: 11400000, guid: 67310deff7de76c48b527f16fa4c3f57, type: 2}
       spritesAliens:
-      - {fileID: 21300000, guid: 1ce984cf1abde8443bdc01c40659dee6, type: 3}
-      - {fileID: 21300000, guid: b0a931446aaface4bb837d9b7934884a, type: 3}
-      - {fileID: 21300000, guid: b7cbc71e56aa9504e8ab337928d8d270, type: 3}
-      background: {fileID: 21300000, guid: bb0f88dd5be8cf84d93adf8157ac05cc, type: 3}
+      - {fileID: 21300000, guid: 173330ed063d05e4fbd4a9d9aca1272d, type: 3}
+      - {fileID: 21300000, guid: 62e61b66c04ab3a4aaf717682ccd19bc, type: 3}
+      - {fileID: 21300000, guid: 4ae08da6f0e346943b4d97707cbadc28, type: 3}
+      background: {fileID: 21300000, guid: 64c128f7ba48ffc49a2cda5f69280a1a, type: 3}
+      alienIndex: 0
   - date: 3
     dateData:
       questions:
@@ -110,7 +112,8 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 68e70bc8461d4f148af6eff3e17c644d, type: 2}
       - {fileID: 11400000, guid: adf83eb5d4830e840bf256a7da462d81, type: 2}
       spritesAliens:
-      - {fileID: 21300000, guid: dcce4fb677b9dcc4fae3f5ec832395b4, type: 3}
-      - {fileID: 21300000, guid: 31780534e59f9554da826364e369a037, type: 3}
-      - {fileID: 21300000, guid: beb5cda93075fca47a923efe46f6911f, type: 3}
-      background: {fileID: 21300000, guid: e9652cfd905bcc14abf6ba9b62f1b4b2, type: 3}
+      - {fileID: 21300000, guid: 4db57298506e91949a6598fb81bdcec4, type: 3}
+      - {fileID: 21300000, guid: 5bb769cd87c02cb42a9cf11d05a6c04a, type: 3}
+      - {fileID: 21300000, guid: 8b53943e5716cd042a8090bf564b763c, type: 3}
+      background: {fileID: 21300000, guid: 556f97927bafc7342971a2b157037c59, type: 3}
+      alienIndex: 0

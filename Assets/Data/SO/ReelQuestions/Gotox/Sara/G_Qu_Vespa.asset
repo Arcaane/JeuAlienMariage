@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questionSentence: "Vous d\xE9cidez qu'il n'y a rien de plus romantique qu'une balade
     en Vespa. Probl\xE8me: la Vespa ne d\xE9marre pas. Mamma mia! C'est l'occasion
-    de montrer \xE0 votre date que vous savez prendre en main les choses."
+    de montrer \xE0 votre date que vous savez prendre les choses en main."
   reponsesPossibles:
   - {fileID: 11400000, guid: f0c95563bad18a349a79e67869dec5a9, type: 2}
   - {fileID: 11400000, guid: d20f4662cba8f324f89dfa67df87800c, type: 2}

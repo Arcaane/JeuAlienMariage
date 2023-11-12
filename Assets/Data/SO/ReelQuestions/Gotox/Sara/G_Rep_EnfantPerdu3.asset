@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: G_Rep_EnfantPerdu3
   m_EditorClassIdentifier: 
   sentence: Ignorer l'enfant
-  answerDescription: Vous faites sembalnt de ne pas voir et ne pas entendre l'enfant
-    et vous partez, en amenant votre date avec vous.
+  answerDescription: Vous faites semblant de ne pas voir et ne pas entendre l'enfant
+    et vous partez, en emmenant votre date avec vous.
   answersConsequences: 0
   alienReaction: "Vous passez une super apr\xE8s-midi suite \xE0 cet incident. La
-    vie est belle quand il faut pas s'occuper d'une enfant en larmes."
+    vie est plus belle quand il ne faut pas s'occuper d'une enfant en larmes."
