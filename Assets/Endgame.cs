@@ -6,6 +6,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Video;
 
 public class Endgame : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class Endgame : MonoBehaviour
     [SerializeField] private GameObject endScreen;
     [SerializeField] private EventSystem _eventSystem;
     [SerializeField] private GameObject button;
+    [SerializeField] private VideoPlayer video;
     public void Start()
     {
         Initialize();
@@ -50,5 +52,10 @@ public class Endgame : MonoBehaviour
         button.SetActive(false);
         endScreen.SetActive(false);
         SceneManager.LoadScene(0);
+    }
+
+    public void StartCredits()
+    {
+        video.Play();
     }
 }
