@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: T_Rep_Vespa1
+  m_EditorClassIdentifier: 
+  sentence: Faire le lover
+  answerDescription: "Gr\xE2ce \xE0 vos connaissances en construction, vous r\xE9cup\xE8rez
+    des pi\xE8ces d\xE9tach\xE9es de la Vespa, et vous construisez une fleur m\xE9tallique
+    avec. "
+  answersConsequences: 0
+  alienReaction: "\"Oh, c'est magnifique! Tu est tr\xE8s dou\xE9 de tes mains!\"
+    dit Gloub avant de d\xE9guster la fleur en m\xE9tal."
