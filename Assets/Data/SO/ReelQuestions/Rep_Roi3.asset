@@ -18,5 +18,4 @@ MonoBehaviour:
     repr\xE9sentation laisse s'exprimer votre profond amour pour le royaume et ses
     institutions. Faux-cul va. "
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 03000000010000000200000000000000
+  answersConsequences: 1

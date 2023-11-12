@@ -14,7 +14,8 @@ public class UIManager : MonoBehaviour
     
     [SerializeField] private EventSystem eventSystem;
     [SerializeField] private GameObject[] firstSelectedByPannels;
-
+    [SerializeField] private Sprite[] playerScreens;
+    
     private void Start()
     {
         DontDestroyOnLoad(this);

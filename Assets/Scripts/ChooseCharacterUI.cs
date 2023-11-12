@@ -51,7 +51,7 @@ public class ChooseCharacterUI : MonoBehaviour
             if (button.spriteSet) playerValidateCount++;
         }
         
-        return playerValidateCount == GameManager.Instance.players.Count + 1;
+        return playerValidateCount == GameManager.Instance.players.Count;
     }
     
     private void NextPlayer()

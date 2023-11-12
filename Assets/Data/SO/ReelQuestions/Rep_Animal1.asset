@@ -17,5 +17,4 @@ MonoBehaviour:
     que vous \xEAtes face \xE0 un apex pr\xE9dateur et que le moindre mouvement brusque
     pourrait vous mener \xE0 la mort ou pire, vous faire passer pour un loser."
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 03000000010000000200000000000000
+  answersConsequences: 0

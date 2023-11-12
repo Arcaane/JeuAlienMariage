@@ -17,5 +17,4 @@ MonoBehaviour:
     rendez-vous au roi Macronux place de la Gare \xE0 17h15, et que c'est une tarte
     \xE0 cinq doigts qui va mettre fin \xE0 2 mill\xE9naires de faibles sur le tr\xF4ne."
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 03000000010000000200000000000000
+  answersConsequences: 1

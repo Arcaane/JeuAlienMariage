@@ -903,7 +903,11 @@ MonoBehaviour:
   chooseTargetUI: {fileID: 1436355392637044314}
   background: {fileID: 3840289266633897746}
   eventSystem: {fileID: 0}
-  firstSelectedByPannels: []
+  firstSelectedByPannels:
+  - {fileID: 3030131588480467687}
+  - {fileID: 5817914759841346014}
+  - {fileID: 8899311222917395476}
+  playerScreens: []
 --- !u!1 &1274704898917250814
 GameObject:
   m_ObjectHideFlags: 0
