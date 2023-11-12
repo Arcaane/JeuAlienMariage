@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.Serialization;
 
 public class UIManager : MonoBehaviour
 {
@@ -10,11 +9,14 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject chooseCharacterUI;
     [SerializeField] private GameObject chooseTargetUI;
     //[SerializeField] private GameObject inGameUIHandler;
-    [SerializeField] private GameObject background;
     
     [SerializeField] private EventSystem eventSystem;
     [SerializeField] private GameObject[] firstSelectedByPannels;
-
+    
+    [Header("Background")]
+    [SerializeField] private GameObject background;
+    [SerializeField] private Sprite[] menuBackground;
+        
     private void Start()
     {
         DontDestroyOnLoad(this);
