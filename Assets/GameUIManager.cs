@@ -71,14 +71,13 @@ public class GameUIManager : MonoBehaviour
     private async Task AnimDisplayPlayerTurn()
     {
         AudioManager.instance.PlaySoundOnce(1);
-        Debug.Log("AnimDisplayPlayerTurn");
         playerAnouncementTransform.gameObject.SetActive(true);
-        dialogueManager.hideUI.SetActive(true);
+        dialogueManager.hideUI.SetActive(true); // ACTIVE LE HIDE 
         playerAnouncementImage.sprite = playerAnouncementScreens[GameManager.Instance.GetActivePlayer().GetIndex()];
         playerAnouncementTransform.DOAnchorPosX(1920, 0.345f);
         await Task.Delay(3500);
         playerAnouncementTransform.DOAnchorPosX( 0, 0.350f);
-        dialogueManager.hideUI.SetActive(false);
+        dialogueManager.hideUI.SetActive(false); // DESACTIVE LE HIDE 
         playerAnouncementTransform.gameObject.SetActive(false);
     }
 

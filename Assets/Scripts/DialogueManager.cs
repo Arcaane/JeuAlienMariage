@@ -45,6 +45,7 @@ public class DialogueManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        hideUI = GameManager.Instance.uiManager.hideWithHearts;
         date = GameManager.Instance.GetCurrentDate();
         SetupQuestions();
         continueButton.SetActive(false);
@@ -68,6 +69,7 @@ public class DialogueManager : MonoBehaviour
     {
         if (isDrawingText) return;
         
+        hideUI.SetActive(false);
         isDrawingText = true;
         AudioManager.instance.PlaySoundOnce(7);
         QuestionSection.SetActive(true);
@@ -82,7 +84,7 @@ public class DialogueManager : MonoBehaviour
             answerContainers[i].SetActive(true);
             await AppearText(tempQuestion.reponsesPossibles[i].sentence, answerApparitionSpeed, answerText[i]);
         }
-
+        
         isDrawingText = false;
         canAnswer = true;
     }
@@ -174,6 +176,7 @@ public class DialogueManager : MonoBehaviour
         canSkipDescription = false;
         canSkipReaction = false;
         canAnswer = false;
+        hideUI.SetActive(false);
         GetRandomQuestion();
     }
 
@@ -183,7 +186,7 @@ public class DialogueManager : MonoBehaviour
     {
         AudioManager.instance.PlaySoundOnce(8);
         canAnswer = false;
-        
+        hideUI.SetActive(false);
         CloseAnswersSection();
         await AppearText(tempQuestion.reponsesPossibles[index].answerDescription, answerApparitionSpeed, questionText);
         canSkipDescription = true;

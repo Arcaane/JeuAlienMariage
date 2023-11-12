@@ -19,6 +19,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Image background;
     [SerializeField] private Sprite[] menuBackground;
     private int currentPhaseIndex;
+    public GameObject hideWithHearts;
         
     private void Start()
     {
