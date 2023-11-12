@@ -3389,22 +3389,22 @@ MonoBehaviour:
   - button: {fileID: 7813844978589800434}
     buttonBackground: {fileID: 5259758984760344622}
     text: {fileID: 1407483739225291106}
-    sprite: {fileID: 21300000, guid: 004da10e8762030419da22fa913170ba, type: 3}
+    sprite: {fileID: 21300000, guid: b9c77a805d51a824cb7074897a3c5c4d, type: 3}
     spriteSet: 0
   - button: {fileID: 7527721915500983746}
     buttonBackground: {fileID: 5952308997099716067}
     text: {fileID: 662469417241950480}
-    sprite: {fileID: 21300000, guid: 004da10e8762030419da22fa913170ba, type: 3}
+    sprite: {fileID: 21300000, guid: 4f414c016c88dca48b7fa0d721cc0ce9, type: 3}
     spriteSet: 0
   - button: {fileID: 7828961923233878963}
     buttonBackground: {fileID: 2308530133522304689}
     text: {fileID: 8614236344241633621}
-    sprite: {fileID: 21300000, guid: 004da10e8762030419da22fa913170ba, type: 3}
+    sprite: {fileID: 21300000, guid: 58b47797a15593242ad78ef1288489d8, type: 3}
     spriteSet: 0
   - button: {fileID: 501481928144754425}
     buttonBackground: {fileID: 2230258489357722000}
     text: {fileID: 2022311312767158636}
-    sprite: {fileID: 21300000, guid: 004da10e8762030419da22fa913170ba, type: 3}
+    sprite: {fileID: 21300000, guid: 74e05b8874bdc084aafe177c5858b3e9, type: 3}
     spriteSet: 0
   titleText: {fileID: 6248709118114742516}
 --- !u!1 &4614529081904694316

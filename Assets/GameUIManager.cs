@@ -3,6 +3,8 @@ using System.Threading.Tasks;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
 public class GameUIManager : MonoBehaviour
 {
@@ -12,10 +14,14 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] private GameObject answerSection;
     [SerializeField] private DialogueManager dialogueManager;
     [SerializeField] private RectTransform playerAnouncementTransform;
-    [SerializeField] private TextMeshProUGUI playerAnouncementText;
+    [SerializeField] private Image playerAnouncementImage;
     [SerializeField] private PlayerScreen playerScreen;
     [SerializeField] private GameObject losingScreen;
+    [SerializeField] private Image playerTele;
+    
     [SerializeField] private Sprite[] playerScreens;
+    [SerializeField] private Sprite[] playerAnouncementScreens;
+    //[SerializeField] private Sprite[] playerTeleScreen;
 
     public string startText;
 
@@ -36,6 +42,7 @@ public class GameUIManager : MonoBehaviour
     {
         dialogueManager.hideUI.SetActive(false);
         playerAnouncementTransform.gameObject.SetActive(true);
+        playerTele.sprite = GameManager.Instance.GetActivePlayer().GetSprite();
         dateTr.position = new Vector3(0, -1080, 0);
         dialogueManager.dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[0];
         GameManager.Instance.uiManager.SetBackground(GameManager.Instance.GetCurrentDate().background);
@@ -45,6 +52,7 @@ public class GameUIManager : MonoBehaviour
         Task.Delay(250);
         textBox.gameObject.SetActive(true);
         LaunchText();
+        
     }
 
     private async void LaunchText()
@@ -63,7 +71,7 @@ public class GameUIManager : MonoBehaviour
         Debug.Log("AnimDisplayPlayerTurn");
         playerAnouncementTransform.gameObject.SetActive(true);
         dialogueManager.hideUI.SetActive(true);
-        playerAnouncementText.text = $"Player {GameManager.Instance.GetActivePlayer().GetIndex() + 1} turn";
+        playerAnouncementImage.sprite = playerAnouncementScreens[GameManager.Instance.GetActivePlayer().GetIndex()];
         playerAnouncementTransform.DOAnchorPosX(1920, 0.345f);
         await Task.Delay(3500);
         playerAnouncementTransform.DOAnchorPosX( 0, 0.350f);
@@ -98,7 +106,9 @@ public class GameUIManager : MonoBehaviour
             heart.SetActive(false);
             heart.transform.position = Vector3.zero;
         }
+        
         playerScreen.SetupImage(playerScreens[GameManager.Instance.GetActivePlayer().GetIndex()]);
+        playerTele.sprite = GameManager.Instance.GetActivePlayer().GetSprite();
     }
     
 }
