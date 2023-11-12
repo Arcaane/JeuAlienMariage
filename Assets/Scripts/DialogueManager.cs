@@ -3,7 +3,6 @@ using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.Serialization;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -209,7 +208,7 @@ public class DialogueManager : MonoBehaviour
             tempQuestion.reponsesPossibles[3].answersConsequences);
         CloseAnswersSection();
         await AppearText(tempQuestion.reponsesPossibles[3].answerDescription, answerApparitionSpeed, questionText);
-        await Task.Delay(450);
+        await Task.Delay(350);
         GetRandomQuestion();
     }
 
