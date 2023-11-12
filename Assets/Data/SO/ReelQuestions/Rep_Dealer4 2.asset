@@ -16,6 +16,5 @@ MonoBehaviour:
   answerDescription: "Vous observez de loin le dealer de substance aqueuse, et d\xE9clinez,
     mal \xE0 l'aise \xE0 l'id\xE9e de devoir vous hydrater de telle mani\xE8re devant
     votre date."
-  answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 02000000010000000000000002000000
+  answersConsequences: 845055104
+  alienReaction: dsgffsg

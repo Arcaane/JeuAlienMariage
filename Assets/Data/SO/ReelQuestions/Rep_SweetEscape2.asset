@@ -16,6 +16,5 @@ MonoBehaviour:
   answerDescription: "L'alien ne sait pas \xE0 quel point il a raison de vous avoir
     pos\xE9 cette question... Vous \xEAtes un as du panneau de contr\xF4le, et votre
     vaisseau est pr\xEAt \xE0 tous les \xE9ventuels p\xE9riples \xE0 travers l'univers."
-  answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 02000000030000000000000002000000
+  answersConsequences: -1763801984
+  alienReaction: sdges

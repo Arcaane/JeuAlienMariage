@@ -15,6 +15,7 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI playerAnouncementText;
     [SerializeField] private PlayerScreen playerScreen;
     [SerializeField] private GameObject losingScreen;
+    [SerializeField] private Sprite[] playerScreens;
 
     public string startText;
 
@@ -59,6 +60,7 @@ public class GameUIManager : MonoBehaviour
     private async Task AnimDisplayPlayerTurn()
     {
         Debug.Log("AnimDisplayPlayerTurn");
+        playerAnouncementTransform.gameObject.SetActive(true);
         dialogueManager.hideUI.SetActive(true);
         playerAnouncementText.text = $"Player {GameManager.Instance.GetActivePlayer().GetIndex() + 1} turn";
         playerAnouncementTransform.DOAnchorPosX(1920, 0.345f);
@@ -78,8 +80,20 @@ public class GameUIManager : MonoBehaviour
     public async void PlayerLost()
     {
         losingScreen.SetActive(true);
+        await Task.Delay(3500);
         GameManager.Instance.SetNextPlayer();
+        ResetScene();
         await AnimDisplayPlayerTurn();
+    }
+    
+    public void ResetScene()
+    {
+        foreach (var heart in playerScreen.hearts)
+        {
+            heart.SetActive(false);
+            heart.transform.position = Vector3.zero;
+        }
+        playerScreen.SetupImage(playerScreens[GameManager.Instance.GetActivePlayer().GetIndex()]);
     }
     
     

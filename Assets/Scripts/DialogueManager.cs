@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using Random = UnityEngine.Random;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -30,9 +32,11 @@ public class DialogueManager : MonoBehaviour
     public GameObject hideUI;
     public GameObject AnswerSection;
     public GameObject QuestionSection;
+    public GameObject continueButton;
 
     private int selectedAnswer;
-    public bool canSkip;
+    public bool canSkipDescription;
+    public bool canSkipReaction;
     public Image dateImage;
     
     // Start is called before the first frame update
@@ -40,6 +44,7 @@ public class DialogueManager : MonoBehaviour
     {
         date = GameManager.Instance.GetCurrentDate();
         SetupQuestions();
+        continueButton.SetActive(false);
         timer = 0;
     }
 
@@ -77,6 +82,7 @@ public class DialogueManager : MonoBehaviour
 
     public async Task AppearText(string text, float textSpeed, TextMeshProUGUI TextHandler)
     {
+        continueButton.SetActive(false);
         indexLettre = 0;
         tempText = "";
         TextHandler.text = "";
@@ -120,13 +126,31 @@ public class DialogueManager : MonoBehaviour
         return 1;
     }
 
-    public void GetRandomQuestion()
+    private async void GetRandomQuestion()
     {
         if (currentDateQuestions.Count <= 0) SetupQuestions();
         var rand = Random.Range(0, currentDateQuestions.Count);
         tempQuestion = currentDateQuestions[rand];
         currentDateQuestions.RemoveAt(rand);
-        AskQuestion(tempQuestion);
+        await AskQuestion(tempQuestion);
+    }
+
+    private async void DisplayReaction()
+    {
+        var a = CalculateAnswerRate(tempQuestion.reponsesPossibles[selectedAnswer].answersConsequences);
+        if (a > 0)
+        {
+            GameUIManager.Instance.AddHeart();
+            dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[1];
+        }
+        await AppearText(tempQuestion.reponsesPossibles[selectedAnswer].alienReaction, answerApparitionSpeed, questionText);
+        if (a < 0)
+        {
+            GameUIManager.Instance.PlayerLost();
+            dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[2];
+        }
+        canSkipReaction = true;
+        continueButton.SetActive(true);
     }
 
     #region Input
@@ -134,29 +158,25 @@ public class DialogueManager : MonoBehaviour
     private async void DoAnswer(int index)
     {
         canAnswer = false;
-        var a = CalculateAnswerRate(tempQuestion.reponsesPossibles[index].answersConsequences);
+        
         CloseAnswersSection();
         await AppearText(tempQuestion.reponsesPossibles[index].answerDescription, answerApparitionSpeed, questionText);
-        canSkip = true;
-        await AppearText(tempQuestion.reponsesPossibles[index].alienReaction, answerApparitionSpeed, questionText);
-        if (a > 0)
-        {
-            GameUIManager.Instance.AddHeart();
-            dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[1];
-        }
-        else
-        {
-            GameUIManager.Instance.PlayerLost();
-            dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[2];
-        }
-        
+        canSkipDescription = true;
+        selectedAnswer = index;
+        continueButton.SetActive(true);
     }
 
     public void OnAButton(InputAction.CallbackContext ctx)
     {
-        if (canSkip && ctx.started)
+        if (canSkipDescription && ctx.started)
         {
-            canSkip = false;
+            canSkipDescription = false;
+            DisplayReaction();
+        }
+
+        if (canSkipReaction && ctx.started)
+        {
+            canSkipReaction = false;
             GetRandomQuestion();
         }
         

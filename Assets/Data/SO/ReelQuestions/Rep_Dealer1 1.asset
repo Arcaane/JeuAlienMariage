@@ -16,6 +16,5 @@ MonoBehaviour:
   answerDescription: "Acheter la came d'un pauvre dealer de rue ? Tr\xE8s peu pour
     vous. Vous sortez votre propre fiole de monoxyde de dihidrog\xE8ne, et en buvez
     trois gorg\xE9es avant de le proposer \xE0 votre date."
-  answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 02000000010000000000000002000000
+  answersConsequences: 845055104
+  alienReaction: dzd

@@ -15,6 +15,5 @@ MonoBehaviour:
   sentence: Menacer d'appeler la police
   answerDescription: "Scandalis\xE9, vous sortez votre X\xE9no-Tablette et tapez
     le num\xE9ro de la police locale, mena\xE7ant de les appeler \xE0 tout instant."
-  answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 02000000010000000000000002000000
+  answersConsequences: 845055104
+  alienReaction: sgr

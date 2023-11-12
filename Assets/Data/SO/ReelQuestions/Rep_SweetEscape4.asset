@@ -15,6 +15,5 @@ MonoBehaviour:
   sentence: L'emmener sur Terre
   answerDescription: "Vous connaissez la plan\xE8te pour le date parfait : la Terre
     ! Vous engagez vos propulseurs et mettez le cap sur la Plan\xE8te Bleue."
-  answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 02000000030000000000000002000000
+  answersConsequences: -1763801984
+  alienReaction: qsfd

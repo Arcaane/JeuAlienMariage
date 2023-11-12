@@ -16,6 +16,5 @@ MonoBehaviour:
   answerDescription: "La distance n'a pas besoin de se compter en ann\xE9es lumi\xE8res
     pour voyager... Vous proposez de se ressourcer dans la nature de la plan\xE8te
     la plus proche."
-  answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 02000000030000000000000002000000
+  answersConsequences: -1763801984
+  alienReaction: qdf
