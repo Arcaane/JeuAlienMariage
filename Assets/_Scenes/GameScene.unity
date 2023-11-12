@@ -303,12 +303,13 @@ MonoBehaviour:
     questions: []
     spritesAliens: []
     background: {fileID: 0}
+    alienIndex: 0
   currentDateQuestions: []
   answersCount: 0
   tempQuestion: {fileID: 0}
   canAnswer: 0
   questionsApparitionSpeed: 0.03
-  answerApparitionSpeed: 0.05
+  answerApparitionSpeed: 0.03
   questionText: {fileID: 1553952238}
   tempText: 
   indexLettre: 0
