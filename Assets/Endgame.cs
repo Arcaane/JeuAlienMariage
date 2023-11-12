@@ -31,7 +31,6 @@ public class Endgame : MonoBehaviour
         kissAlienImage.sprite = alienKissSprite[GameManager.Instance.GetCurrentDate().alienIndex];
         kissPlayerImage.sprite = GameManager.Instance.GetActivePlayer().GetKissSprite();
         Animation();
-        _eventSystem.SetSelectedGameObject(button);
     }
 
     private async void Animation()
@@ -39,12 +38,17 @@ public class Endgame : MonoBehaviour
         await Task.Delay(3000);
         playerImage.gameObject.SetActive(false);
         alienImage.gameObject.SetActive(false);
+        button.SetActive(true);
+        _eventSystem.SetSelectedGameObject(button);
         endScreen.SetActive(true);
     }
 
     public void LoadStartScene()
     {
-        GameManager.Instance.uiManager.SetPhaseIndex(0);
+        playerImage.gameObject.SetActive(true);
+        alienImage.gameObject.SetActive(true);
+        button.SetActive(false);
+        endScreen.SetActive(false);
         SceneManager.LoadScene(0);
     }
 }
