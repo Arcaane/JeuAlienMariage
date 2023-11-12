@@ -52,14 +52,20 @@ MonoBehaviour:
   answerSection: {fileID: 6165762864155061522}
   dialogueManager: {fileID: 0}
   playerAnouncementTransform: {fileID: 2987649012815187664}
-  playerAnouncementText: {fileID: 3462083554698092162}
+  playerAnouncementImage: {fileID: 5549162050499841858}
   playerScreen: {fileID: 7561843556256102562}
   losingScreen: {fileID: 465520658260014072}
+  playerTele: {fileID: 1777139978891847766}
   playerScreens:
   - {fileID: 21300000, guid: 71a3611b95fdf684ea24be14f2342353, type: 3}
   - {fileID: 21300000, guid: 85caa41b0d6a47646a620059e9d0c656, type: 3}
   - {fileID: 21300000, guid: 8d56e1f3044a0a34092be8c038595f27, type: 3}
   - {fileID: 21300000, guid: 31112099522f82e4a9229b22ddea12fe, type: 3}
+  playerAnouncementScreens:
+  - {fileID: 21300000, guid: e0e4dafca941a544895ff47fec958096, type: 3}
+  - {fileID: 21300000, guid: fa4d8e0221deb36429000d4e4168e5d2, type: 3}
+  - {fileID: 21300000, guid: d5c6e47fd81b98c4ea38e1391b7db361, type: 3}
+  - {fileID: 21300000, guid: afd0804c9301a7f4a8d6150a0bde2d0a, type: 3}
   eventSystem: {fileID: 0}
   startText: "Dans une galaxie bien bien lointaine, vous atterissez sur une plan\xE8te
     pour votre premier date... Et au loin, un alien charmant croise votre regard...  "
@@ -170,15 +176,15 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2515565601780689291, guid: 05635e0f2a8e894458da124b5f3331bf, type: 3}
   m_PrefabInstance: {fileID: 837484145359791963}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &3462083554698092162 stripped
+--- !u!114 &5549162050499841858 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4293229805395081689, guid: 05635e0f2a8e894458da124b5f3331bf, type: 3}
+  m_CorrespondingSourceObject: {fileID: 5088436594146158617, guid: 05635e0f2a8e894458da124b5f3331bf, type: 3}
   m_PrefabInstance: {fileID: 837484145359791963}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &6165762864155061522 stripped
@@ -284,9 +290,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4097947746973556053, guid: 404ad82d73433e14fb4c05df74086b95, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 9d011b473e7132142a886c238ffa34f7, type: 3}
+    - target: {fileID: 4097947746973556053, guid: 404ad82d73433e14fb4c05df74086b95, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5803465457351196942, guid: 404ad82d73433e14fb4c05df74086b95, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465958065343049503, guid: 404ad82d73433e14fb4c05df74086b95, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 230
+      objectReference: {fileID: 0}
+    - target: {fileID: 7465958065343049503, guid: 404ad82d73433e14fb4c05df74086b95, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 230
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -298,6 +320,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2768064446944350808, guid: 404ad82d73433e14fb4c05df74086b95, type: 3}
   m_PrefabInstance: {fileID: 2339477785883899139}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1777139978891847766 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4097947746973556053, guid: 404ad82d73433e14fb4c05df74086b95, type: 3}
+  m_PrefabInstance: {fileID: 2339477785883899139}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &7561843556256102562 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5225985367550610849, guid: 404ad82d73433e14fb4c05df74086b95, type: 3}

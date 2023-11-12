@@ -442,6 +442,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 6c60227b-b8f1-45f5-a12a-9bc6c8376b5f
     m_ActionName: Player/StartButton[/XInputControllerWindows/start]
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: aa3cd3ba-ba82-4fc4-a84e-fa8103e1335d
+    m_ActionName: Menus/PressB[/XInputControllerWindows/buttonEast]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -689,6 +693,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1893623359390113343, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 1080
+      objectReference: {fileID: 0}
     - target: {fileID: 2700491839968160391, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 986.8536
@@ -729,6 +737,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5549162050499841858, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: e0e4dafca941a544895ff47fec958096, type: 3}
+    - target: {fileID: 5549162050499841858, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5549162050499841858, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
+      propertyPath: m_PreserveAspect
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5678754632780082077, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
       propertyPath: eventSystem
       value: 
@@ -742,7 +762,8 @@ PrefabInstance:
       value: GameUiManager
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 92923088121151525, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
