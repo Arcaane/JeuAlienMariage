@@ -6,43 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2247df84-bcb0-4f48-bf0d-bedc666f890b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.JeuAlienMariage/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/GLOUB_dialog.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/GLOUB_dialog.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/GOTGOTUS_dialog.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/GOTGOTUS_dialog.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/MANTE_dialog.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/MANTE_dialog.PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderarrowleft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderarrowleft.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderarrowright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderarrowright.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tindergotgotus (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tindergotgotus (1).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tindergoub.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tindergoub.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tindergrallax (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tindergrallax (1).png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderheart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderheart.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowleft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowleft.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowright.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlinearrowright.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlineheartbutton.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Tinderoutlineheartbutton.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/match_coeur_milieu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/match_coeur_milieu.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/match_porte_droite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/match_porte_droite.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/match_porte_gauche.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/match_porte_gauche.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/match_titre.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/match_titre.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Gotox/G_Rep_Animal1.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Gotox/G_Rep_Animal1.asset.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Gotox/G_Rep_Animal2.asset.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/SO/ReelQuestions/Gotox/G_Rep_Animal2.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Input/JeuAlienMariage.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/Input/JeuAlienMariage.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GameUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameUIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PauseMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PauseMenu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerScreen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerScreen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefab/UIManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefab/UIManager.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/DialogueManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" afterDir="false" />

@@ -351,7 +351,7 @@ MonoBehaviour:
       - m_Target: {fileID: 795802419}
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: ActivatePreviousPhase
-        m_Mode: 1
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -364,7 +364,7 @@ MonoBehaviour:
     m_ActionName: Menus/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Menus
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!4 &706334700
@@ -593,6 +593,70 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2207841398008958528, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580900928958739462, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580900928958739462, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580900928958739462, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2580900928958739462, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3338847612923503942, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3338847612923503942, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3338847612923503942, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3338847612923503942, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4864448506989378911, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4864448506989378911, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4864448506989378911, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4864448506989378911, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869680801813718032, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869680801813718032, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869680801813718032, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5869680801813718032, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6891032259911045570, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}

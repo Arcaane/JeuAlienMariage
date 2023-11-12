@@ -227,7 +227,6 @@ public class DialogueManager : MonoBehaviour
         {
             Time.timeScale = 0;
             pauseMenu.SetActive(true);
-            
         }
     }
 

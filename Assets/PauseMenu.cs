@@ -9,7 +9,7 @@ public class PauseMenu : MonoBehaviour
     [SerializeField] private GameObject firstButton;
     private void OnEnable()
     {
-        GameManager.Instance.uiManager.eventSystem.SetSelectedGameObject(firstButton);
+        GameUIManager.Instance.eventSystem.SetSelectedGameObject(firstButton);
     }
 
     public void Resume()
@@ -26,5 +26,6 @@ public class PauseMenu : MonoBehaviour
     public void Quit()
     {
         SceneManager.LoadScene(0);
+        GameManager.Instance.uiManager.SetPhaseIndex(0);
     }
 }

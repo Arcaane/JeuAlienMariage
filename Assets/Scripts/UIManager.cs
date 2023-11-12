@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
@@ -86,9 +87,12 @@ public class UIManager : MonoBehaviour
         ActivatePhase();
     }
 
-    public void ActivatePreviousPhase()
+    public void ActivatePreviousPhase(InputAction.CallbackContext ctx)
     {
-        currentPhaseIndex--;
-        ActivatePhase();
+        if (ctx.started)
+        {
+            currentPhaseIndex--;
+            ActivatePhase();
+        }
     }
 }

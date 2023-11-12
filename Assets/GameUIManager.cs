@@ -3,6 +3,7 @@ using System.Threading.Tasks;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class GameUIManager : MonoBehaviour
 {
@@ -16,7 +17,7 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] private PlayerScreen playerScreen;
     [SerializeField] private GameObject losingScreen;
     [SerializeField] private Sprite[] playerScreens;
-
+    public EventSystem eventSystem;
     public string startText;
 
     private void Awake()

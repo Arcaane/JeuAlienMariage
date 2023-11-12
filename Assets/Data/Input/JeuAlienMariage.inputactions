@@ -148,7 +148,7 @@
                     "name": "",
                     "id": "2f10bf6a-cabf-4772-aecd-5339f54eb5fc",
                     "path": "<Gamepad>/buttonEast",
-                    "interactions": "",
+                    "interactions": "Press",
                     "processors": "",
                     "groups": "Gamepad",
                     "action": "PressB",
