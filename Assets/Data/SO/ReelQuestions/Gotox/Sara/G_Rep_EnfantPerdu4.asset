@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: G_Rep_EnfantPerdu4
+  m_EditorClassIdentifier: 
+  sentence: "Aider... avec r\xE9ticence"
+  answerDescription: "Vous essayez d'aider l'enfant, mais \xE0 chaque fois qu'une
+    larme ou de la morve vous touche, vous faites en pas en arri\xE8re, parce que
+    les gosses c'est vraiment pas votre d\xE9lire."
+  answersConsequences: 1
+  alienReaction: "\"Tu comptes quand m\xEAme pas me tenir la main apr\xE8s \xE7a?
+    Tu est encore plus sale qu'un humain ordinaire.\""
