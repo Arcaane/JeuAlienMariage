@@ -107,6 +107,12 @@ public class GameManager : MonoBehaviour
     public void AddHeart()
     {
         currentPlayerHearts ++;
+        if(currentPlayerHearts >= 5) PlayerWin();
+    }
+
+    private void PlayerWin()
+    {
+        Debug.Log("J'ai gagné zebi");
     }
     
     [Serializable] 
