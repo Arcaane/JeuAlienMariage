@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -107,12 +108,13 @@ public class GameManager : MonoBehaviour
     public void AddHeart()
     {
         currentPlayerHearts ++;
-        if(currentPlayerHearts >= 5) PlayerWin();
+        if(currentPlayerHearts >= 1) PlayerWin();
     }
 
     private void PlayerWin()
     {
         Debug.Log("J'ai gagné zebi");
+        SceneManager.LoadScene(2);
     }
     
     [Serializable] 

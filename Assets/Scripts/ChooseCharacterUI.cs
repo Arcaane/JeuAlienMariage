@@ -16,6 +16,7 @@ public class ChooseCharacterUI : MonoBehaviour
         public Image buttonBackground;
         public TextMeshProUGUI text;
         public Sprite sprite;
+        public Sprite kissSprite;
         public bool spriteSet;
     }
 
@@ -36,6 +37,7 @@ public class ChooseCharacterUI : MonoBehaviour
         var player = GameManager.Instance.GetActivePlayer();
         text.text = "Joueur " + player.GetIndex() + 1;
         player.SetSprite(button.sprite);
+        player.SetKissSprite(button.kissSprite);
         buttons[index].buttonBackground.color = GameManager.Instance.GetActiveColor();
         buttons[index].spriteSet = true;
         buttons[index].button.enabled = false;
