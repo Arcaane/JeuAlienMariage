@@ -17,7 +17,7 @@ MonoBehaviour:
     alien pr\xE9tend qu'il gagnera, mais \xE0 vous de voir si vous voulez lui laisser
     une victoire facile ou si votre esprit de comp\xE9tition est plus fort."
   reponsesPossibles:
-  - {fileID: 11400000, guid: c5bdae90d27c79848b1577fd329aaef5, type: 2}
-  - {fileID: 11400000, guid: e1615448252b2da48930bc44d7a4970e, type: 2}
-  - {fileID: 11400000, guid: 811ab45b6368f9f41b1da6150ef95fdc, type: 2}
-  - {fileID: 11400000, guid: e6eb5f112ae789b4bb01046eeebe2539, type: 2}
+  - {fileID: 11400000, guid: cd4539ad940fff842864f60d176fb70b, type: 2}
+  - {fileID: 11400000, guid: 9ddddb913ac638245ba2185d345fbd87, type: 2}
+  - {fileID: 11400000, guid: 3dca038dcdd79b643bc52b33d211df3b, type: 2}
+  - {fileID: 11400000, guid: e47dc0afab3b6284db417b72b080e47e, type: 2}

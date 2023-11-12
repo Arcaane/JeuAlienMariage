@@ -15,7 +15,7 @@ MonoBehaviour:
   questionSentence: "Vous voyez que le regard de l'alien se porte sur une fleur juste
     \xE0 c\xF4t\xE9 de vous.   Vous d\xE9cidez alors de..."
   reponsesPossibles:
-  - {fileID: 11400000, guid: ac7595de003a9c5428cb92ccc4972d1f, type: 2}
-  - {fileID: 11400000, guid: 611d585322f5c3049af5815f49e544b6, type: 2}
-  - {fileID: 11400000, guid: 6b87b64713427f448b83d2448750f067, type: 2}
-  - {fileID: 11400000, guid: 9e69e60d94240f24c88f8bec9e2a164a, type: 2}
+  - {fileID: 11400000, guid: dbbb9b7a9cb74cf41a8de1b9fba77419, type: 2}
+  - {fileID: 11400000, guid: 6806040482938fd40aa0f78232993559, type: 2}
+  - {fileID: 11400000, guid: 955261d450bee924eb3bac963775e549, type: 2}
+  - {fileID: 11400000, guid: cef7aa87ac0ede84d91b336dd2b5a760, type: 2}

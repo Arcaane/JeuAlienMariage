@@ -16,7 +16,6 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] private QuestionsSO tempQuestion;
 
     [Header("PlayerParam")] public bool canAnswer;
-    public QuestionsSO startDialogue;
 
     [Header("Text Apparition Param")] 
     public float questionsApparitionSpeed = 0.1f;
@@ -40,6 +39,8 @@ public class DialogueManager : MonoBehaviour
     public bool canSkipReaction;
     public bool playerLost;
     public Image dateImage;
+
+    public bool isDrawingText;
     
     // Start is called before the first frame update
     void Start()
@@ -59,13 +60,15 @@ public class DialogueManager : MonoBehaviour
     }
     public void StartDate()
     {
-        tempQuestion = startDialogue;
         CloseAnswersSection();
-        AskQuestion(tempQuestion);
+        GetRandomQuestion();
     }
     
     public async Task AskQuestion(QuestionsSO question = null)
     {
+        if (isDrawingText) return;
+        
+        isDrawingText = true;
         AudioManager.instance.PlaySoundOnce(7);
         QuestionSection.SetActive(true);
         answersCount = tempQuestion.reponsesPossibles.Length;
@@ -80,6 +83,7 @@ public class DialogueManager : MonoBehaviour
             await AppearText(tempQuestion.reponsesPossibles[i].sentence, answerApparitionSpeed, answerText[i]);
         }
 
+        isDrawingText = false;
         canAnswer = true;
     }
 
@@ -132,6 +136,7 @@ public class DialogueManager : MonoBehaviour
 
     private async void GetRandomQuestion()
     {
+        hideUI.SetActive(false);
         if (currentDateQuestions.Count <= 0) SetupQuestions();
         var rand = Random.Range(0, currentDateQuestions.Count);
         tempQuestion = currentDateQuestions[rand];
@@ -141,6 +146,8 @@ public class DialogueManager : MonoBehaviour
 
     private async void DisplayReaction()
     {
+        if(isDrawingText) return;
+        
         AudioManager.instance.PlaySoundOnce(7);
         var a = CalculateAnswerRate(tempQuestion.reponsesPossibles[selectedAnswer].answersConsequences);
         if (a > 0)
@@ -162,6 +169,11 @@ public class DialogueManager : MonoBehaviour
     public void RestartDialogues()
     {
         CloseAnswersSection();
+        tempQuestion = null;
+        tempText = "";
+        canSkipDescription = false;
+        canSkipReaction = false;
+        canAnswer = false;
         GetRandomQuestion();
     }
 

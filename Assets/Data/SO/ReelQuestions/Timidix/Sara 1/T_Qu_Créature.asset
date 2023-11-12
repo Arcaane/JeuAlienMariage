@@ -16,7 +16,7 @@ MonoBehaviour:
     \xE0 un poulet (et jparle pas des flics), une tortue et une souris. Votre ali\xE8ne
     semble beaucoup l'aimer... mais vous n'\xEAtes pas \xE0 l'aise. Que faire?"
   reponsesPossibles:
-  - {fileID: 11400000, guid: df257af39922f2d4f989743ed4e244a6, type: 2}
-  - {fileID: 11400000, guid: f900809cdf5716346aafdc4c29b55bf7, type: 2}
-  - {fileID: 11400000, guid: 19cc5f2993014b24ba5b4f8bad83ba1a, type: 2}
-  - {fileID: 11400000, guid: cf9400ab38c87024ca08a24fe745fa4f, type: 2}
+  - {fileID: 11400000, guid: 722dd3b38a81dc44485a284244c5416e, type: 2}
+  - {fileID: 11400000, guid: d9b8f5f8a42e72e46bffa72c52e85474, type: 2}
+  - {fileID: 11400000, guid: 6605c4460696e694caa21924afddc88f, type: 2}
+  - {fileID: 11400000, guid: f4d8dbc15b0908244955d91f0f52b9cc, type: 2}

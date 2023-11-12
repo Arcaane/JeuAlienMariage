@@ -15,7 +15,7 @@ MonoBehaviour:
   questionSentence: '"D''ailleurs, avant qu''on aille plus loin, je voudrais te demander...
     es-tu religieux?"'
   reponsesPossibles:
-  - {fileID: 11400000, guid: da8e13ffdaa8e2540b616db0f1fd1e07, type: 2}
-  - {fileID: 11400000, guid: fa5cb1859532e704d8ab97242aee8312, type: 2}
-  - {fileID: 11400000, guid: 093050687a13b2a4cba34090b92165f8, type: 2}
-  - {fileID: 11400000, guid: c0267c030c7274a469b4bf00f86ca1bf, type: 2}
+  - {fileID: 11400000, guid: 11433db04ee140e4cbb02396710bf0f7, type: 2}
+  - {fileID: 11400000, guid: c1c211966f7e1764c82660fdb8dca72b, type: 2}
+  - {fileID: 11400000, guid: ab933aeefdb7d8049a6b4460f9a5c66c, type: 2}
+  - {fileID: 11400000, guid: 615563959a40f7f43a3489c7977a9e2d, type: 2}

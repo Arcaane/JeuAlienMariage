@@ -16,7 +16,7 @@ MonoBehaviour:
     larmes: il dit avoir perdu ses parents dans le parc: c''est le moment de mettre
     en avant votre compassion et talents avec les gens.'
   reponsesPossibles:
-  - {fileID: 11400000, guid: d9e84ca8f8a346946b2f334ecbb52579, type: 2}
-  - {fileID: 11400000, guid: 89e731ab5c37e1142944652fb5329530, type: 2}
-  - {fileID: 11400000, guid: 5cf92a40433049949919b0da66084f19, type: 2}
-  - {fileID: 11400000, guid: 8996cb305df31bd4aa679304cebb8c75, type: 2}
+  - {fileID: 11400000, guid: bb9cb80eb094dbd45b04264db414bd90, type: 2}
+  - {fileID: 11400000, guid: ac4f0da236f36a24390f1c97b9610c3d, type: 2}
+  - {fileID: 11400000, guid: 62d3e3f9bc800f84991e6ed9958c157b, type: 2}
+  - {fileID: 11400000, guid: 54e223958b0542549878ac605aa06ffe, type: 2}

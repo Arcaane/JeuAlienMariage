@@ -17,7 +17,7 @@ MonoBehaviour:
     moment avec l'alien de votre coeur. Ils vous demandent votre avis sur la monarchie
     instaur\xE9e depuis 2 mill\xE8naires sur la plan\xE8te, que dites vous ? "
   reponsesPossibles:
-  - {fileID: 11400000, guid: a042640bc23bd3a40a7fd3b7cbfd0f36, type: 2}
-  - {fileID: 11400000, guid: b7c777cd87bbb3f4e8f08365b40fbcb9, type: 2}
-  - {fileID: 11400000, guid: 76b81fdc41e46a945bdbaac7cbcdc1ff, type: 2}
-  - {fileID: 11400000, guid: 80518d0991f78434d9699ec5c0f7be94, type: 2}
+  - {fileID: 11400000, guid: 5fb8c4d78b026934b96059abea862d7f, type: 2}
+  - {fileID: 11400000, guid: 37ea3606e738eac42a938510fdfea440, type: 2}
+  - {fileID: 11400000, guid: e069714d84df94348b0f66754aca62ea, type: 2}
+  - {fileID: 11400000, guid: 7f0af9089884a4d4c9e1df63cae32eac, type: 2}
