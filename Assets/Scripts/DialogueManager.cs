@@ -39,10 +39,17 @@ public class DialogueManager : MonoBehaviour
     {
         //GameManager.Instance.uiManager.ActivateNextPhase();
         date = GameManager.Instance.GetCurrentDate();
-        currentDateQuestions = date.questions;
+        SetupQuestions();
         timer = 0;
     }
 
+    private void SetupQuestions()
+    {
+        foreach (var question in date.questions)
+        {
+            currentDateQuestions.Add(question);
+        }
+    }
     public void StartDate()
     {
         tempQuestion = startDialogue;
@@ -145,7 +152,11 @@ public class DialogueManager : MonoBehaviour
 
     public void GetRandomQuestion()
     {
-        if (currentDateQuestions.Count <= 0) currentDateQuestions = date.questions;
+        if (currentDateQuestions.Count <= 0) SetupQuestions();
+        foreach (var question in currentDateQuestions)
+        {
+            Debug.Log(question);
+        }
         var rand = Random.Range(0, currentDateQuestions.Count);
         tempQuestion = currentDateQuestions[rand];
         currentDateQuestions.RemoveAt(rand);
@@ -191,7 +202,6 @@ public class DialogueManager : MonoBehaviour
     }
 
     private async void DoAnswerA()
-    
     {
         canAnswer = false;
         Debug.Log("Player Answer A");
