@@ -78,7 +78,7 @@ public class GameManager : MonoBehaviour
         switch (date)
         {
             case 1 :
-                chosenDate = DatesEnum.Dates.Gloub;
+                chosenDate = DatesEnum.Dates.Gloup;
                 break;
             case 2 :
                 chosenDate = DatesEnum.Dates.Gotgotus;
