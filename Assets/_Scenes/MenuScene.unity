@@ -582,6 +582,18 @@ PrefabInstance:
       propertyPath: eventSystem
       value: 
       objectReference: {fileID: 592967215}
+    - target: {fileID: 9210666830649743669, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: menuBackground.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: c16e4fb68200d034bb084d85853873d6, type: 3}
+    - target: {fileID: 9210666830649743669, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: menuBackground.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: bb0f88dd5be8cf84d93adf8157ac05cc, type: 3}
+    - target: {fileID: 9210666830649743669, guid: 3f4d94e8d0b2b68479a6eaa495565eec, type: 3}
+      propertyPath: menuBackground.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: e9652cfd905bcc14abf6ba9b62f1b4b2, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
