@@ -15,6 +15,6 @@ MonoBehaviour:
   sentence: Le questionner
   answerDescription: Vous jetez un oeil devant vous, tentant de savoir de qui il
     s'agit, et lui posez la question.
-  answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 01000000020000000300000001000000
+  answersConsequences: 1
+  alienReaction: "Tu vas beaucoup trop loin, je suis un businessman respectable et
+    mes secrets n'appartiennent qu'\xE0 moi !"

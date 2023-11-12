@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
-  m_Name: Rep_SweetEscape3
+  m_Name: G_Rep_SweetEscape3
   m_EditorClassIdentifier: 
   sentence: "Plut\xF4t rester ici tant qu'on y est..."
   answerDescription: "Vous \xEAtes plut\xF4t casanier, et l'id\xE9e de partir tr\xE8s
     loin ne vous emballe pas tant que \xE7a. Vous proposez de rester dans le confort
     de votre vaisseau."
-  answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 02000000030000000000000002000000
+  answersConsequences: 1
+  alienReaction: "L'alien fait une grimace \xE9trange, signalant sa d\xE9ception
+    quant \xE0 votre manque de z\xE8le. On dirait que votre date esp\xE9rait quelqu'un
+    qui ose s'investir dans une relation... A la fois \xE9motionnellement et financi\xE8rement."
