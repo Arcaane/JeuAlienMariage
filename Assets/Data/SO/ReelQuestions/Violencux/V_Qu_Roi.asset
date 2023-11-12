@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
+  m_Name: V_Qu_Roi
+  m_EditorClassIdentifier: 
+  questionSentence: "Un rhinoc\xE9ros nain marron \xE0 double d\xE9fense et un long
+    rat marchant sur 2 pates d\xE9barquent en chantant alors que vous partagez un
+    moment avec l'alien de votre coeur. Ils vous demandent votre avis sur la monarchie
+    instaur\xE9e depuis 2 mill\xE8naires sur la plan\xE8te, que dites vous ? "
+  reponsesPossibles:
+  - {fileID: 11400000, guid: 4e395abcf7dff7843a67a0d8a96c4667, type: 2}
+  - {fileID: 11400000, guid: c0d9bbcac404e2f43b99ca75abd2902f, type: 2}
+  - {fileID: 11400000, guid: bc7414d2763a670429ddbacd9e9a7ef4, type: 2}
+  - {fileID: 11400000, guid: 0aaba2628d1b546488234b0298f04a2f, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: V_Rep_Dealer1
+  m_EditorClassIdentifier: 
+  sentence: Proposer un meilleur produit
+  answerDescription: "Acheter la came d'un pauvre dealer de rue ? Tr\xE8s peu pour
+    vous. Vous sortez votre propre fiole de monoxyde de dihidrog\xE8ne, et en buvez
+    trois gorg\xE9es avant de le proposer \xE0 votre date."
+  answersConsequences: 0
+  alienReaction: "\"T'as bien raison l'humain, on est jamais mieux vi-serre que par
+    soi m\xEAme.\" Apr\xE8s s'\xEAtre hydrat\xE9 comme un taulard, Grallax vous propose
+    de bouger vers un autre lieu."

@@ -16,7 +16,7 @@ MonoBehaviour:
     tra\xEEnant dans la rue. Il vous propose d'en acheter un peu avant de passer
     aux choses s\xE9rieuses..."
   reponsesPossibles:
-  - {fileID: 11400000, guid: 3e899074aa5822e4a84d0ecbe240a4fd, type: 2}
-  - {fileID: 11400000, guid: 53e9e0c51df68584b8a69ffcc13a6144, type: 2}
-  - {fileID: 11400000, guid: e6b76c243c2df2e4585249c490c00636, type: 2}
-  - {fileID: 11400000, guid: 25d15dc43463b5f4fb1b2b462c0131b6, type: 2}
+  - {fileID: 11400000, guid: 458658b6fb04f2e439ef2ec4ed5c5088, type: 2}
+  - {fileID: 11400000, guid: dccc395fa8a6ea54abc9b037122614c8, type: 2}
+  - {fileID: 11400000, guid: 229b01a51db666d4fb5c3fb0a92e9f20, type: 2}
+  - {fileID: 11400000, guid: 2fc45ede62fd9204cbf85e9e8e97e4d6, type: 2}

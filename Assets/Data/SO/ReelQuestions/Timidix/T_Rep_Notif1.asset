@@ -15,6 +15,7 @@ MonoBehaviour:
   sentence: Ignorer ce qui vient de se passer
   answerDescription: Vous ignorez ce qui vient de se passer et continuez la conversation.
   answersConsequences: 0
-  alienReaction: "Je suis ravi que tu connaisses les limites de notre relation, maintenant
-    que disais-je sur la derni\xE8re sortie d'Apoule ? Ah oui le X\xE9nophone XIII
-    blanc cass\xE9 est fabuleux."
+  alienReaction: "\"Merci de ne pas retenir \xE7a contre moi, c'\xE9tait un message
+    de mon association de d\xE9fense des baleines stellaires dans le secteur d'Arcturus,
+    je ne voulais pas passer pour quelqu'un de trop.. trop\" De trop g\xE9nial, oui
+    Gloub, c'est trop tard pour \xE7a."

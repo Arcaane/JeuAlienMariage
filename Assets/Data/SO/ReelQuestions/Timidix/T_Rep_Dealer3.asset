@@ -15,7 +15,7 @@ MonoBehaviour:
   sentence: Menacer d'appeler la police
   answerDescription: "Scandalis\xE9, vous sortez votre X\xE9no-Tablette et tapez
     le num\xE9ro de la police locale, mena\xE7ant de les appeler \xE0 tout instant."
-  answersConsequences: 0
-  alienReaction: "L'alien vous arr\xEAte imm\xE9diatement, touch\xE9 par votre geste
-    citoyen, en vous assurant qu'il n'avait aucune intention de braver la loi. C'\xE9tait
-    un test, et vous l'avez pass\xE9 haut la main !"
+  answersConsequences: 1
+  alienReaction: "Gloub, malgr\xE9 son air timide et innocent, vole dans les magasins
+    Sheporix des produits restaurateurs d'\xE9cailles depuis plus de 10 ans. La simple
+    mention de la police la fait fuir."

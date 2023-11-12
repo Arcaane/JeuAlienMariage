@@ -16,7 +16,7 @@ MonoBehaviour:
     votre alien favori, vous trouvez un petit animal \xE0 fourrure trop trop mignon
     l\xE0 avec ses petites patounes oh la la,,, Qu'est ce que vous faite ?"
   reponsesPossibles:
-  - {fileID: 11400000, guid: 57ae1054d6c623a428782833d4f274d5, type: 2}
-  - {fileID: 11400000, guid: 99f8a6b33f3ded9409dfaea4a4887394, type: 2}
-  - {fileID: 11400000, guid: b939d81a99c7d9c46bae5a25359b647d, type: 2}
-  - {fileID: 11400000, guid: 86f79bd5a983e6d41aefb63f4747aad4, type: 2}
+  - {fileID: 11400000, guid: 4d30cc2f8109fb74ba81c3a2a9cdc81a, type: 2}
+  - {fileID: 11400000, guid: 9bd104f29ff30d64b84d08a2315b192c, type: 2}
+  - {fileID: 11400000, guid: 042fa9081ed08f34485539ada89e535c, type: 2}
+  - {fileID: 11400000, guid: d1bbb8d551e006b408a251a2e9fb7395, type: 2}

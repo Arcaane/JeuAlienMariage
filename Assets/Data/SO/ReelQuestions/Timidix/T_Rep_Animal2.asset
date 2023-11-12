@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
   m_Name: T_Rep_Animal2
   m_EditorClassIdentifier: 
-  sentence: "Maintenir la cr\xE9ature \xE0 distance"
+  sentence: "Se tenir loin de la cr\xE9ature"
   answerDescription: "Votre exp\xE9rience de la faune extra-terrestre vous indique
     que vous \xEAtes face \xE0 un apex pr\xE9dateur et que le moindre mouvement brusque
     pourrait vous mener \xE0 la mort ou pire, vous faire passer pour un loser."
-  answersConsequences: 0
-  alienReaction: "Voil\xE0 une d\xE9cision des plus raisonnables, je reconnais l\xE0
-    le mindset d'un bonne entrepreneur. Ne prendre aucun risque et attendre que nos
-    parents viennent aider."
+  answersConsequences: 1
+  alienReaction: "Le visage de Gloub affiche un air d\xE9\xE7u qu'elle n'exprimera
+    s\xFBrement jamais mais que vous n'oublierez jamais, vous \xEAtes passer pour
+    un loser."

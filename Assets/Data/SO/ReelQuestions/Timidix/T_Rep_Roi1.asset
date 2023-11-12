@@ -19,7 +19,9 @@ MonoBehaviour:
     au diner de famille depuis l'accident du \"Pastis-Maximator\". Vous finissez
     en expliquant qu'un gros chat serait bien plus \xE0 sa place sur le tr\xF4ne
     et convaincus, les deux comp\xE8res partent d\xE9troner Macronux et ses sbires."
-  answersConsequences: 1
-  alienReaction: "Voil\xE0 des id\xE9es des plus saugrenus, il est \xE9vident que
-    le roi est \xE0 sa place car il est le meilleurs en affaires d'entre nous. L'argent
-    se gagne voyons, faites un effort !"
+  answersConsequences: 0
+  alienReaction: "\"C'\xE9tait vraiment une histoire tr\xE8s inspirante ! Je serais
+    ravie de la r\xE9peter \xE0 mes amis pour les convaincre de commencer un grand
+    mouvement social. Viva la r\xE9volucion ! \". Au bout de 2 mois, Gloub et ses
+    potes auront juste r\xE9ussi \xE0 vaincre le dernier boss de Galaxies of SpaceCraft,
+    mais au moins ils y ont pens\xE9.  "

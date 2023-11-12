@@ -18,7 +18,7 @@ MonoBehaviour:
     que \xE7a pourrait \xEAtre pire. Cela d\xE9clenche un regard d'indignation de
     la part des deux animaux qui ne semblent pas \xEAtre du genre \xE0 d\xE9fiscaliser
     leur patrimoine sur la plan\xE8te d'a c\xF4t\xE9. "
-  answersConsequences: 0
-  alienReaction: "C'est vrai que \xE7a pourrait \xEAtre pire, des pauvres pourraient
-    essayer de faire comme nous les riches. Voil\xE0 une tr\xE8s sage r\xE9flexion
-    !"
+  answersConsequences: 1
+  alienReaction: "C'est par contre un regard de d\xE9ception qui vous attend sur
+    le visage de Gloub. Vous imaginez qu'iel cherche un peu de panache et vous venez
+    d'\xEAtre super chiant, faites mieux."

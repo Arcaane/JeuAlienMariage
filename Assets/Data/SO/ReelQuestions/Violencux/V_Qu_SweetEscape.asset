@@ -15,7 +15,7 @@ MonoBehaviour:
   questionSentence: "\"Et si on d\xE9cidait de partir loin, tous les deux, toi et
     moi, maintenant ?\""
   reponsesPossibles:
-  - {fileID: 11400000, guid: 1c0389af1abbe554a91a15d39a33bfe5, type: 2}
-  - {fileID: 11400000, guid: 195903db02c373c4caabf41a6169804f, type: 2}
-  - {fileID: 11400000, guid: bae91ecdabab9d64f811b68e9daa42ff, type: 2}
-  - {fileID: 11400000, guid: 1f320d680df0d9b478ed495d6d6a4e10, type: 2}
+  - {fileID: 11400000, guid: 7cd106ad9b49ccc4fa1cc0a638c7e7d1, type: 2}
+  - {fileID: 11400000, guid: aa13d715d4961fc44b66b8a97e9e60b2, type: 2}
+  - {fileID: 11400000, guid: 025280d84093d9d4bbcee0bf9280605a, type: 2}
+  - {fileID: 11400000, guid: 1aeb0d58cea5f9b4686d951e3ffab525, type: 2}
