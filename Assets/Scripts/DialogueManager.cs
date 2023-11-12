@@ -66,6 +66,7 @@ public class DialogueManager : MonoBehaviour
     
     public async Task AskQuestion(QuestionsSO question = null)
     {
+        AudioManager.instance.PlaySoundOnce(7);
         QuestionSection.SetActive(true);
         answersCount = tempQuestion.reponsesPossibles.Length;
         dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[0];
@@ -140,6 +141,7 @@ public class DialogueManager : MonoBehaviour
 
     private async void DisplayReaction()
     {
+        AudioManager.instance.PlaySoundOnce(7);
         var a = CalculateAnswerRate(tempQuestion.reponsesPossibles[selectedAnswer].answersConsequences);
         if (a > 0)
         {
@@ -167,6 +169,7 @@ public class DialogueManager : MonoBehaviour
 
     private async void DoAnswer(int index)
     {
+        AudioManager.instance.PlaySoundOnce(8);
         canAnswer = false;
         
         CloseAnswersSection();

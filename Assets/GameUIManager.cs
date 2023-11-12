@@ -70,6 +70,7 @@ public class GameUIManager : MonoBehaviour
 
     private async Task AnimDisplayPlayerTurn()
     {
+        AudioManager.instance.PlaySoundOnce(1);
         Debug.Log("AnimDisplayPlayerTurn");
         playerAnouncementTransform.gameObject.SetActive(true);
         dialogueManager.hideUI.SetActive(true);

@@ -405,8 +405,8 @@ MonoBehaviour:
   tempQuestion: {fileID: 0}
   canAnswer: 0
   startDialogue: {fileID: 11400000, guid: 4f1fe8f7934b5f043be2f13749e4d824, type: 2}
-  questionsApparitionSpeed: 0.02
-  answerApparitionSpeed: 0.02
+  questionsApparitionSpeed: 0.05
+  answerApparitionSpeed: 0.08
   questionText: {fileID: 1553952238}
   tempText: 
   indexLettre: 0
