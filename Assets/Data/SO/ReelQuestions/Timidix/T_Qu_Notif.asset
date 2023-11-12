@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
   m_Name: T_Qu_Notif
   m_EditorClassIdentifier: 
-  questionSentence: "La X\xE9no-Tablette de l'alien se met \xE0 vibrer et il s'empresse
+  questionSentence: "La X\xE9no-Tablette de Gloub se met \xE0 vibrer et iel s'empresse
     de supprimer la notification, esp\xE9rant que vous ne vous en aperceviez pas."
   reponsesPossibles:
   - {fileID: 11400000, guid: af4d9d581898f644cbd363f544d90d34, type: 2}

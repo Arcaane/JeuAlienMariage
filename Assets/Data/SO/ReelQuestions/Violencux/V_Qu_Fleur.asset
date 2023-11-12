@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
+  m_Name: V_Qu_Fleur
+  m_EditorClassIdentifier: 
+  questionSentence: "Vous voyez que le regard de l'alien se porte sur une fleur juste
+    \xE0 c\xF4t\xE9 de vous.   Vous d\xE9cidez alors de..."
+  reponsesPossibles:
+  - {fileID: 11400000, guid: 1eb1d2530b2d7b844a1436f0c443adc7, type: 2}
+  - {fileID: 11400000, guid: 3054d0c87df78834fa99957155964dd7, type: 2}
+  - {fileID: 11400000, guid: 9a702680ed93e3f4cb4ae6a29ebc42ad, type: 2}
+  - {fileID: 11400000, guid: c66167fee90d341439ddee75b2947af9, type: 2}

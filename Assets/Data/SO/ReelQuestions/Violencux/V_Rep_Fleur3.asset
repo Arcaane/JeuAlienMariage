@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: V_Rep_Fleur3
+  m_EditorClassIdentifier: 
+  sentence: Mettre un coup de pied dedans
+  answerDescription: "Vous devriez \xEAtre le centre de son attention et vous le
+    faite savoir en exprimant votre domination sur la plante gr\xE2ce \xE0 un coup
+    de pied maitris\xE9 qui montre que le stage de Taekwondo organis\xE9 par la mairie
+    de Beauvois-sur-L'escaut a eu un impact important sur vos capacit\xE9s martiales."
+  answersConsequences: 0
+  alienReaction: "\"Woaw montres moi comment tu as fait \xE7a !\" Vous ressentez
+    pour la premi\xE8re fois que Grallax a un int\xE9r\xEAt pour autre chose que
+    vos parties charnues, et cela vous fait vraiment plaisir."

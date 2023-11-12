@@ -17,6 +17,7 @@ MonoBehaviour:
     message \xE0 tous vos contacts. VOTRE date parle \xE0 d'autres personnes que
     vous ? Ca ne se passera pas comme \xE7a. Vous allez d\xE9truire sa r\xE9putation."
   answersConsequences: 1
-  alienReaction: "D\xE9truire ma r\xE9putation ? Je suis li\xE9 \xE0 l'enti\xE8ret\xE9
-    du r\xE9seau Alienkedin de ce syst\xE8me solaire, nous n'avons pas les m\xEAmes
-    valeurs. Manifestement."
+  alienReaction: "Apr\xE8s 15 minutes de recherches, vous r\xE9alisez que Glub n'a
+    pas de r\xE9putation \xE0 d\xE9truire car elle est introuvable sur le r\xE9seau
+    =\xB0\xB2. Vous lui demandez alors si c'est une fausse identit\xE9 et offusqu\xE9
+    elle s'en va."

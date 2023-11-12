@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: V_Rep_Notif2
+  m_EditorClassIdentifier: 
+  sentence: Se renseigner
+  answerDescription: "Vous vous penchez en avant pour mieux voir l'appareil, tentant
+    de savoir de qui il s'agit, et vous pr\xE9parez \xE0 lui posez la question."
+  answersConsequences: 1
+  alienReaction: "Vous demandez \xE0 Grallax la nature de ce qu'il vient de recevoir,
+    il refuse de vous le dire, vous acceptez respectueusement, il s'endort face \xE0
+    votre manque d'effort. "

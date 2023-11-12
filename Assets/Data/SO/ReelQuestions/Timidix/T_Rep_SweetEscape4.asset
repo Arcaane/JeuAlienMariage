@@ -16,6 +16,7 @@ MonoBehaviour:
   answerDescription: "Vous connaissez la plan\xE8te pour le date parfait : la Terre
     ! Vous engagez vos propulseurs et mettez le cap sur la Plan\xE8te Bleue."
   answersConsequences: 1
-  alienReaction: "L'alien para\xEEt enthousiaste \xE0 l'id\xE9e de visiter votre
-    plan\xE8te natale. Mais une fois arriv\xE9 dans les rues de la m\xE9tropole de
-    New-Valzoo, cette excitation se transforme en honn\xEAte d\xE9ception."
+  alienReaction: "Vous aviez juste oubli\xE9 que la Plan\xE8te Bleue n'est plus bleue
+    depuis plus de 1000 ans et que les poissons ne sont pas super \xE0 l'aise sur
+    la plan\xE8te grise avec ces mers de poussi\xE8res (Recyclez vos d\xE9chets mdr
+    non, c'est la faute \xE0 Macron)."

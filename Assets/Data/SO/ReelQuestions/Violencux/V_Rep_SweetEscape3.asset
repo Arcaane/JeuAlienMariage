@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: V_Rep_SweetEscape3
+  m_EditorClassIdentifier: 
+  sentence: "Plut\xF4t rester ici tant qu'on y est..."
+  answerDescription: "Vous \xEAtes plut\xF4t casanier, et l'id\xE9e de partir tr\xE8s
+    loin ne vous emballe pas tant que \xE7a. Vous proposez de rester dans le confort
+    de votre vaisseau."
+  answersConsequences: 1
+  alienReaction: "\"Il y a une ar\xE8ne de combat organisant des matchs \xE0 mort
+    entre toutes les races de la galaxie chez toi ? Sinon \xE7a ne m'interesse pas.\"
+    Malheureusement, vous l'avez fait retirer la semaine derni\xE8re."
