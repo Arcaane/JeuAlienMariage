@@ -5,6 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 public class GameUIManager : MonoBehaviour
 {
@@ -23,6 +24,7 @@ public class GameUIManager : MonoBehaviour
     [SerializeField] private Sprite[] playerAnouncementScreens;
     //[SerializeField] private Sprite[] playerTeleScreen;
 
+    public EventSystem eventSystem;
     public string startText;
 
     private void Awake()
@@ -109,6 +111,7 @@ public class GameUIManager : MonoBehaviour
         
         playerScreen.SetupImage(playerScreens[GameManager.Instance.GetActivePlayer().GetIndex()]);
         playerTele.sprite = GameManager.Instance.GetActivePlayer().GetSprite();
+
     }
     
 }

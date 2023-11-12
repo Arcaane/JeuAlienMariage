@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeda49196174a3344b66ad94a14bf2b4, type: 3}
+  m_Name: "T_Rep_Cr\xE9ature2"
+  m_EditorClassIdentifier: 
+  sentence: "Se d\xE9barasser de la cr\xE9ature, qui g\xE8ne le date"
+  answerDescription: "Vous \xEAtes pas fan d'animaux ou de cr\xE9atures en g\xE9neral.
+    Vous kickez donc la cr\xE9ature dans l'espace d\xE8s que l'ali\xE8ne tourne la
+    t\xEAte, mais il revient imm\xE9diatement??? Pas de chance. "
+  answersConsequences: 1
+  alienReaction: Gloub as tout vu. Bon, elle est trop anxieuse pour dire quoi que
+    ce soit, mais sachez qu'elle vous juge en silence.

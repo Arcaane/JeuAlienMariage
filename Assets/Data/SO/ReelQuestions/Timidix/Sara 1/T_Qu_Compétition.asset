@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea034259d5abc24a886a6cffa35b157, type: 3}
+  m_Name: "T_Qu_Comp\xE9tition"
+  m_EditorClassIdentifier: 
+  questionSentence: "Vous decidez d'aller dans un bar gaming pour tester vos talents
+    sur le jeu connu dans toutes les galaxies, \"Mario Galaxy Kart\". Votre ch\xE9ri
+    alien pr\xE9tend qu'il gagnera, mais \xE0 vous de voir si vous voulez lui laisser
+    une victoire facile ou si votre esprit de comp\xE9tition est plus fort."
+  reponsesPossibles:
+  - {fileID: 11400000, guid: c5bdae90d27c79848b1577fd329aaef5, type: 2}
+  - {fileID: 11400000, guid: e1615448252b2da48930bc44d7a4970e, type: 2}
+  - {fileID: 11400000, guid: 811ab45b6368f9f41b1da6150ef95fdc, type: 2}
+  - {fileID: 11400000, guid: e6eb5f112ae789b4bb01046eeebe2539, type: 2}
