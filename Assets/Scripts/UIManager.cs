@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -14,7 +15,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject[] firstSelectedByPannels;
     
     [Header("Background")]
-    [SerializeField] private GameObject background;
+    [SerializeField] private Image background;
     [SerializeField] private Sprite[] menuBackground;
         
     private void Start()
@@ -73,6 +74,11 @@ public class UIManager : MonoBehaviour
     {
         currentPhaseIndex = index;
         ActivatePhase();
+    }
+
+    public void SetBackground(int index)
+    {
+        background.sprite = menuBackground[index];
     }
 
     public void ActivateNextPhase()

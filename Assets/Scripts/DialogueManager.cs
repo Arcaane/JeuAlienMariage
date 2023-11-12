@@ -62,6 +62,7 @@ public class DialogueManager : MonoBehaviour
         QuestionSection.SetActive(true);
         answersCount = tempQuestion.reponsesPossibles.Length;
         dateImage.sprite = GameManager.Instance.GetCurrentDate().spritesAliens[0];
+        
         await AppearText(tempQuestion.questionSentence, questionsApparitionSpeed, questionText);
         
         ShowAnswerSelectionUIElements();
