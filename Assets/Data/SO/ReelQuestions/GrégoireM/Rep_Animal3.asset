@@ -18,5 +18,4 @@ MonoBehaviour:
     ses parents la veille de son 6\xE8me anniversaire (45 ans en ann\xE9e de loup
     gris). "
   answersSprite: {fileID: 0}
-  answersTraits: 00000000010000000200000003000000
-  answersConsequences: 03000000010000000200000000000000
+  answersConsequences: 1

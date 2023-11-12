@@ -13,6 +13,7 @@ public class GameManager : MonoBehaviour
     private Player activePlayer;
     private int currentIndex;
     [SerializeField] private Color[] playerColors;
+    private int currentPlayerHearts;
     
     [Header("Dates")]
     private Date currentDate;
@@ -93,6 +94,16 @@ public class GameManager : MonoBehaviour
     public Color GetActiveColor()
     {
         return playerColors[currentIndex];
+    }
+
+    public int GetCurrentHearts()
+    {
+        return currentPlayerHearts;
+    }
+
+    public void AddHeart()
+    {
+        currentPlayerHearts ++;
     }
     
     [Serializable] 
