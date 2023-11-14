@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sentence: "Aider... avec r\xE9ticence"
   answerDescription: "Vous essayez d'aider l'enfant, mais \xE0 chaque fois qu'une
-    larme ou de la morve vous touche, vous faites en pas en arri\xE8re, parce que
+    larme ou de la morve vous touche, vous faites un pas en arri\xE8re, parce que
     les gosses c'est vraiment pas votre d\xE9lire."
   answersConsequences: 0
   alienReaction: "M\xEAme si vous \xEAtes d\xE9gout\xE9 (et vous le cachez tr\xE8s
-    mal, d'ailleurs), vous y mettez de la bonne volot\xE9, et \xE7a c'est suffisant
-    pour \xEAtre chramant."
+    mal, d'ailleurs), vous y mettez de la bonne volont\xE9, et \xE7a c'est suffisant
+    pour \xEAtre charmant."

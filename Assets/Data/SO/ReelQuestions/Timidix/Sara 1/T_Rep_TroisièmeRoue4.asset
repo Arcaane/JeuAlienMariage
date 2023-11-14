@@ -15,7 +15,7 @@ MonoBehaviour:
   sentence: Choisir la voie de la victime
   answerDescription: FUIR. JUSTE FUIR. (on est une victime)
   answersConsequences: 0
-  alienReaction: "Vous tapez le meilleur sprint de votre vie, mais en attandant votre
+  alienReaction: "Vous tapez le meilleur sprint de votre vie, mais en attendant votre
     date s'est piss\xE9 dessus et s'est \xE9vanouie (c'est pas glorieux...). Mais
-    vous \xEAtes vite pardonn\xE9 et elle vous en tyient pas riguer surtout car elle
+    vous \xEAtes vite pardonn\xE9 et elle vous en tient pas rigueur surtout car elle
     ne se rappelle de rien."
