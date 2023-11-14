@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: T_Rep_EnfantPerdu3
   m_EditorClassIdentifier: 
   sentence: Ignorer l'enfant
-  answerDescription: Vous faites sembalnt de ne pas voir et ne pas entendre l'enfant
+  answerDescription: Vous faites semblant de ne pas voir et ne pas entendre l'enfant
     et vous partez, en amenant votre date avec vous.
   answersConsequences: 1
   alienReaction: "Bon, en soit, c'est pas ill\xE9gal, mais c'est moralement r\xE9prehensible,
-    donc Gloub est pas ravie..."
+    donc Gloub n'est pas ravie..."

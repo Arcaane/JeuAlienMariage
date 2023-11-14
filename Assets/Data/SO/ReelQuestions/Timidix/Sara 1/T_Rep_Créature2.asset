@@ -15,7 +15,7 @@ MonoBehaviour:
   sentence: "Se d\xE9barasser de la cr\xE9ature, qui g\xE8ne le date"
   answerDescription: "Vous \xEAtes pas fan d'animaux ou de cr\xE9atures en g\xE9neral.
     Vous kickez donc la cr\xE9ature dans l'espace d\xE8s que l'ali\xE8ne tourne la
-    t\xEAte, mais il revient imm\xE9diatement??? Pas de chance. "
+    t\xEAte, mais il revient imm\xE9diatement!!??? Pas de chance. "
   answersConsequences: 1
-  alienReaction: Gloub as tout vu. Bon, elle est trop anxieuse pour dire quoi que
+  alienReaction: Gloub a tout vu. Bon, elle est trop anxieuse pour dire quoi que
     ce soit, mais sachez qu'elle vous juge en silence.
