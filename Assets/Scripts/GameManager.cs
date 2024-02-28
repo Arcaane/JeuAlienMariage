@@ -25,10 +25,7 @@ public class GameManager : MonoBehaviour
     private void Awake()
     {
         if (Instance == null) Instance = this;
-        else
-        {
-            Destroy(this);
-        }
+        else { Destroy(this); }
     }
 
     private void Start()
@@ -47,7 +44,7 @@ public class GameManager : MonoBehaviour
     }
     public void SetNextPlayer()
     {
-        currentIndex = currentIndex >= players.Count - 1 ? 0 : currentIndex+1;
+        currentIndex = currentIndex >= players.Count - 1 ? 0 : currentIndex + 1;
         activePlayer = players[currentIndex];
     }
 
@@ -64,13 +61,11 @@ public class GameManager : MonoBehaviour
         activePlayer = players[0];
     }
 
-    public Player GetActivePlayer()
-    {
+    public Player GetActivePlayer() {
         return activePlayer;
     }
 
-    public Date GetCurrentDate()
-    {
+    public Date GetCurrentDate() {
         return currentDate;
     }
 
@@ -79,18 +74,10 @@ public class GameManager : MonoBehaviour
         DatesEnum.Dates chosenDate;
         switch (date)
         {
-            case 0 :
-                chosenDate = DatesEnum.Dates.Gloup;
-                break;
-            case 1 :
-                chosenDate = DatesEnum.Dates.Gotgotus;
-                break;
-            case 2 :
-                chosenDate = DatesEnum.Dates.Graillax;
-                break;
-            default:
-                return;
-                break;
+            case 0 : chosenDate = DatesEnum.Dates.Gloup; break;
+            case 1 : chosenDate = DatesEnum.Dates.Gotgotus; break;
+            case 2 : chosenDate = DatesEnum.Dates.Graillax; break;
+            default: return;
         }
         
         currentDate = datesDictionnary[chosenDate];
@@ -108,14 +95,15 @@ public class GameManager : MonoBehaviour
 
     public void AddHeart()
     {
-        currentPlayerHearts ++;
+        Debug.Log("AddHeart");
+        currentPlayerHearts++;
         if(currentPlayerHearts >= 5) PlayerWin();
     }
 
     private async void PlayerWin()
     {
-        await Task.Delay(7000);
-        SceneManager.LoadScene(1);
+        await Task.Delay(5000);
+        SceneManager.LoadScene(2);
     }
     
     [Serializable] 

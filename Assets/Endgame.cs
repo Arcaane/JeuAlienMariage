@@ -21,6 +21,7 @@ public class Endgame : MonoBehaviour
     [SerializeField] private EventSystem _eventSystem;
     [SerializeField] private GameObject button;
     [SerializeField] private VideoPlayer video;
+    
     public void Start()
     {
         Initialize();
@@ -47,10 +48,10 @@ public class Endgame : MonoBehaviour
 
     public void LoadStartScene()
     {
-        playerImage.gameObject.SetActive(true);
-        alienImage.gameObject.SetActive(true);
-        button.SetActive(false);
-        endScreen.SetActive(false);
+        // playerImage.gameObject.SetActive(true);
+        // alienImage.gameObject.SetActive(true);
+        // button.SetActive(false);
+        // endScreen.SetActive(false);
         SceneManager.LoadScene(0);
     }
 

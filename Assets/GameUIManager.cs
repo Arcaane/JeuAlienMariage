@@ -83,9 +83,10 @@ public class GameUIManager : MonoBehaviour
 
     public void AddHeart()
     {
+        Debug.Log("AddHeart");
         GameManager.Instance.AddHeart();
         var index = GameManager.Instance.GetCurrentHearts();
-        playerScreen.hearts[index].SetActive(true);
+        if (index <= playerScreen.hearts.Length) playerScreen.hearts[index].SetActive(true); 
     }
 
     public async void PlayerLost()
@@ -100,13 +101,13 @@ public class GameUIManager : MonoBehaviour
         dialogueManager.playerLost = false;
         dialogueManager.RestartDialogues();
     }
-    
-    public void ResetScene()
+
+    private void ResetScene()
     {
         foreach (var heart in playerScreen.hearts)
         {
             heart.SetActive(false);
-            heart.transform.position = Vector3.zero;
+            heart.transform.position = playerTele.transform.position;
         }
         
         playerScreen.SetupImage(playerScreens[GameManager.Instance.GetActivePlayer().GetIndex()]);

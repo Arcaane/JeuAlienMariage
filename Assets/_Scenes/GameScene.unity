@@ -706,6 +706,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 353.39996
       objectReference: {fileID: 0}
+    - target: {fileID: 2561476362726092551, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2585347379383426935, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -800.7
@@ -774,6 +778,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameUiManager
       objectReference: {fileID: 0}
+    - target: {fileID: 7007250802591849951, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7252245188827588154, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8389883723070821282, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -800.7
@@ -781,6 +793,14 @@ PrefabInstance:
     - target: {fileID: 8389883723070821282, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 391.49997
+      objectReference: {fileID: 0}
+    - target: {fileID: 8718811290607335005, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 9128918800387093368, guid: 1f533e1ef281fa94f88c06af62bf637f, type: 3}
+      propertyPath: m_EdgeRadius
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

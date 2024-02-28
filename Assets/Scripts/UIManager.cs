@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.InputSystem;
@@ -20,14 +21,22 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Sprite[] menuBackground;
     private int currentPhaseIndex;
     public GameObject hideWithHearts;
-        
-    private void Start()
+
+    private void Awake()
     {
-        DontDestroyOnLoad(this);
         if (Instance == null)
         {
             Instance = this;
         }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+    private void Start()
+    {
+        DontDestroyOnLoad(this);
     }
 
 
